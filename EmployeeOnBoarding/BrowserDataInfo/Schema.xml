@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="BrowserDataInfo" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/BrowserDataInfo" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x0100963fae2ec39d449d9458f6d06e2312d2" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{ae9708dd-a09d-4575-911c-200969bab93a}" Name="UserAnalyticId" /><FieldRef ID="{77a5e146-3653-4da4-8cab-4836507a9a1c}" Name="BrowserCodeName" /><FieldRef ID="{b55e64d0-1c97-4697-9684-101726eda6c5}" Name="BrowserName" /><FieldRef ID="{95a031f9-e52c-4b3f-9c02-9ed27ac7c9ad}" Name="BrowserPlatform" /><FieldRef ID="{0919f904-e03f-421a-a255-ba34189ab926}" Name="BrowserProduct" /><FieldRef ID="{de8fa19f-bdc7-4cc8-b0e3-253db45f8825}" Name="BrowserUserAgent" /><FieldRef ID="{1807d556-d401-4a45-b076-14941ef8032a}" Name="BrowserVendor" /><FieldRef ID="{a3732863-06f8-4d40-8df1-df4ccd327529}" Name="UserIp" /><FieldRef ID="{2a0287d7-2b1f-45d0-b68e-01d04d1cacc1}" Name="UserCountry" /><FieldRef ID="{3feb4f0b-e52d-4780-aefd-cff8fc917ec8}" Name="UserState" /><FieldRef ID="{d9d5dada-cf2d-4f40-bf7e-4f68dfeb6dba}" Name="UserCity" /><FieldRef ID="{b2a9331d-7d3c-40b4-8953-684515e29b26}" Name="UserTimeZone" /><FieldRef ID="{4a5f39e7-da7c-4898-87a1-d569bf834794}" Name="UserZipCode" /><FieldRef ID="{930f0212-a953-44df-b6e1-76eb9cc5a097}" Name="BrowserVersion" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field Name="UserAnalyticId" ID="{ae9708dd-a09d-4575-911c-200969bab93a}" DisplayName="UserAnalyticId" Type="Number" /><Field Name="BrowserCodeName" ID="{77a5e146-3653-4da4-8cab-4836507a9a1c}" DisplayName="BrowserCodeName" Type="Text" /><Field Name="BrowserName" ID="{b55e64d0-1c97-4697-9684-101726eda6c5}" DisplayName="BrowserName" Type="Text" /><Field Name="BrowserPlatform" ID="{95a031f9-e52c-4b3f-9c02-9ed27ac7c9ad}" DisplayName="BrowserPlatform" Type="Text" /><Field Name="BrowserProduct" ID="{0919f904-e03f-421a-a255-ba34189ab926}" DisplayName="BrowserProduct" Type="Text" /><Field Name="BrowserUserAgent" ID="{de8fa19f-bdc7-4cc8-b0e3-253db45f8825}" DisplayName="BrowserUserAgent" Type="Text" /><Field Name="BrowserVendor" ID="{1807d556-d401-4a45-b076-14941ef8032a}" DisplayName="BrowserVendor" Type="Text" /><Field Name="UserIp" ID="{a3732863-06f8-4d40-8df1-df4ccd327529}" DisplayName="UserIp" Type="Text" /><Field Name="UserCountry" ID="{2a0287d7-2b1f-45d0-b68e-01d04d1cacc1}" DisplayName="UserCountry" Type="Text" /><Field Name="UserState" ID="{3feb4f0b-e52d-4780-aefd-cff8fc917ec8}" DisplayName="UserState" Type="Text" /><Field Name="UserCity" ID="{d9d5dada-cf2d-4f40-bf7e-4f68dfeb6dba}" DisplayName="UserCity" Type="Text" /><Field Name="UserTimeZone" ID="{b2a9331d-7d3c-40b4-8953-684515e29b26}" DisplayName="UserTimeZone" Type="Text" /><Field Name="UserZipCode" ID="{4a5f39e7-da7c-4898-87a1-d569bf834794}" DisplayName="UserZipCode" Type="Text" /><Field Name="BrowserVersion" ID="{930f0212-a953-44df-b6e1-76eb9cc5a097}" DisplayName="BrowserVersion" Type="Text" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="UserAnalyticId" /><FieldRef Name="BrowserCodeName" /><FieldRef Name="BrowserName" /><FieldRef Name="BrowserPlatform" /><FieldRef Name="BrowserProduct" /><FieldRef Name="BrowserUserAgent" /><FieldRef Name="BrowserVendor" /><FieldRef Name="BrowserVersion" /><FieldRef Name="UserIp" /><FieldRef Name="UserCountry" /><FieldRef Name="UserState" /><FieldRef Name="UserCity" /><FieldRef Name="UserTimeZone" /><FieldRef Name="UserZipCode" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

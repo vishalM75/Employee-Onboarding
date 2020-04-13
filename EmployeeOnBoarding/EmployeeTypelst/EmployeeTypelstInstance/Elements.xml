@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="EmployeeTypelst" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/EmployeeTypelst" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="_EmployeeType">Permanent</Field>
+          <Field Name="ID">1</Field>
+          <Field Name="IsActive1">1</Field>
+        </Row>
+        <Row>
+          <Field Name="_EmployeeType">Contractual</Field>
+          <Field Name="ID">2</Field>
+          <Field Name="IsActive1">1</Field>
+        </Row>
+        <Row>
+          <Field Name="_EmployeeType">Full-time</Field>
+          <Field Name="ID">3</Field>
+          <Field Name="IsActive1">1</Field>
+        </Row>
+        <Row>
+          <Field Name="_EmployeeType">Part-time</Field>
+          <Field Name="ID">4</Field>
+          <Field Name="IsActive1">1</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

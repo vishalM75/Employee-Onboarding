@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="TaskTemplate" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/TaskTemplate" Description="My List Instance">
+    <!--<Data>
+      <Rows>
+        <Row>
+          <Field Name="ID" >1</Field>
+          <Field Name="_IDStandardTask" >1</Field>
+          <Field Name="_IDTaskTemplate" >1</Field>
+          <Field Name="_IDCategory" >1</Field>
+          <Field Name="Level" >Manager</Field>
+          <Field Name="_IsActive" >1</Field>
+
+
+        </Row>
+        <Row>
+          <Field Name="ID" >2</Field>
+          <Field Name="_IDStandardTask" >2</Field>
+          <Field Name="_IDTaskTemplate" >1</Field>
+          <Field Name="_IDCategory">2</Field>
+          <Field Name="Level" >Manager</Field>
+          <Field Name="_IsActive" >1</Field>
+
+
+        </Row>
+        <Row>
+          <Field Name="ID" >3</Field>
+          <Field Name="_IDStandardTask" >3</Field>
+          <Field Name="_IDTaskTemplate" >1</Field>
+          <Field Name="_IDCategory">1</Field>
+          <Field Name="Level" >Manager</Field>
+          <Field Name="_IsActive" >1</Field>
+
+
+        </Row>
+        <Row>
+          <Field Name="ID" >4</Field>
+          <Field Name="_IDStandardTask" >4</Field>
+          <Field Name="_IDTaskTemplate" >1</Field>
+          <Field Name="_IDCategory">1</Field>
+          <Field Name="Level" >Manager</Field>
+          <Field Name="_IsActive" >1</Field>
+
+
+        </Row>
+        <Row>
+          <Field Name="ID" >5</Field>
+          <Field Name="_IDStandardTask" >5</Field>
+          <Field Name="_IDTaskTemplate" >1</Field>
+          <Field Name="_IDCategory">3</Field>
+          <Field Name="Level" >HR</Field>
+          <Field Name="_IsActive" >1</Field>
+
+
+        </Row>
+
+
+
+      </Rows>
+
+
+    </Data>-->
+  </ListInstance>
+</Elements>

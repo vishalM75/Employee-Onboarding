@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Category" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/Category" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="CategoryName1">Upon Notice</Field>
+          <Field Name="ID">1</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="Process1">2</Field>
+        </Row>
+        <Row>
+          <Field Name="CategoryName1">Before Of Departure Date</Field>
+          <Field Name="ID">2</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="Process1">2</Field>
+        </Row>
+       
+        
+        <Row>
+          <Field Name="CategoryName1">Network and IT</Field>
+          <Field Name="ID">5</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="Process1">1</Field>
+        </Row>
+        <Row>
+          <Field Name="CategoryName1">Post-Joining</Field>
+          <Field Name="ID">6</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="Process1">1</Field>
+        </Row>
+        <Row>
+          <Field Name="CategoryName1">On-Joining</Field>
+          <Field Name="ID">7</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="Process1">1</Field>
+        </Row>
+        <Row>
+          <Field Name="CategoryName1">Pre-Joining</Field>
+          <Field Name="ID">8</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="Process1">1</Field>
+        </Row>
+        
+        
+        <Row>
+          <Field Name="CategoryName1">On Last Day</Field>
+          <Field Name="ID">3</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="Process1">2</Field>
+        </Row>
+        <Row>
+          <Field Name="CategoryName1">After Departure</Field>
+          <Field Name="ID">4</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="Process1">2</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

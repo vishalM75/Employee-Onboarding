@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="TaskTemplateMaster" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/TaskTemplateMaster" Description="My List Instance">
+    <!--<Data>
+      <Rows>
+        <Row>
+          <Field Name="ID" >1</Field>
+          <Field Name="_TaskTemplateName" >Sharepoint</Field>
+        </Row>
+
+
+      </Rows>
+    </Data>-->
+  </ListInstance>
+</Elements>

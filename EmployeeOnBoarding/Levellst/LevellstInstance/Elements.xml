@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Levellst" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/Levellst" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">HR</Field>
+          <Field Name="ID">1</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="AllowOnBoardOffBoard">1</Field>
+          <Field Name="AllowUserEdit">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Manager</Field>
+          <Field Name="ID">2</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="AllowOnBoardOffBoard">1</Field>
+          <Field Name="AllowUserEdit">1</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

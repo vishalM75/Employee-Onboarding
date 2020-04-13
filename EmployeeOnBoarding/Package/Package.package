@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="7d33216a-fd2f-4e44-9f87-27db953bb28d" solutionId="7d33216a-fd2f-4e44-9f87-27db953bb28d" resetWebServer="false" sharePointProductVersion="16.0" name="EmployeeOnBoarding" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="07c68cb3-9e10-49bd-b941-73d8b3e526ba" />
+    <featureReference itemId="8605bd01-73f4-4029-9a80-f42fc056e35d" />
+    <featureReference itemId="9ad555c6-beda-4ec7-a55c-cc7853f6c2c0" />
+    <featureReference itemId="277b7410-3ca1-4bea-9598-7f5a2dfa0599" />
+    <featureReference itemId="7574aa3f-abcc-4062-b5a1-f6e995b508b0" />
+    <featureReference itemId="097fe134-890b-4cf5-8745-307e79b5efc4" />
+    <featureReference itemId="ebc45d92-030c-4124-8289-78818665c846" />
+    <featureReference itemId="e34c5e76-4a23-4a63-85b2-f020e5447924" />
+    <featureReference itemId="ce7b43c5-bfad-406e-9956-42012a8614d9" />
+    <featureReference itemId="9cf2c954-96f1-40df-b430-bd9ca31f4ec2" />
+    <featureReference itemId="997c8ad7-3e24-4481-b1a6-9586a18e837a" />
+    <featureReference itemId="e0f82b05-55c3-4621-a7b8-a4fade1cc1be" />
+    <featureReference itemId="c6dc2aa9-1841-4c9e-a0b8-bbaa04de2447" />
+    <featureReference itemId="42cbd857-3ef2-42ee-a171-0ae646f72f16" />
+    <featureReference itemId="8dc2e13a-02ec-4c2d-bc09-7a54b9ea4740" />
+    <featureReference itemId="93d2ee72-c0c2-4789-aa7c-b2b8890a8599" />
+    <featureReference itemId="75ac6ba4-9c78-42f0-ba13-da61f345cc86" />
+    <featureReference itemId="0c175a7c-3152-47ae-93ba-3005b8d48c15" />
+    <featureReference itemId="9d111120-9723-41f3-b269-28aef05de98e" />
+    <featureReference itemId="b8ae7dc5-1d21-4deb-969c-1e9637487d12" />
+    <featureReference itemId="2a62e740-6d5a-462a-afda-7b1ee936799d" />
+    <featureReference itemId="66c39814-fedf-4f32-8c82-02b430970c82" />
+    <featureReference itemId="f9ae1f26-5e4e-4b17-abea-f9b0ee3a616b" />
+    <featureReference itemId="9ec8bbae-cc98-4e19-9ebd-19ffb4485afd" />
+  </features>
+</package>

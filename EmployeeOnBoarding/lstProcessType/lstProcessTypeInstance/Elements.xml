@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <ListInstance Title="lstProcessType" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/lstProcessType" Description="My List Instance" >
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Onboarding</Field>
+          <Field Name="ID">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Offboarding</Field>
+          <Field Name="ID">2</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

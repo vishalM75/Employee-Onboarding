@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="lstEmployeeOnboard" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/lstEmployeeOnboard" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" VersioningEnabled="TRUE">
+  <MetaData>
+    <ContentTypes>
+
+
+      
+      
+      
+    <ContentType ID="0x010060fb8105c0dd436392609724afebc47d" Name="ListFieldsContentType">
+        <FieldRefs>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        <FieldRef ID="{4bef426d-3f90-482a-8a86-fd4b3cfedc4d}" Name="_EmployeeNumber" /><FieldRef ID="{6e6b5e2e-6c6d-4063-80b4-220e296fd3b5}" Name="_Position" /><FieldRef ID="{42eb231e-4150-481e-a958-6f344da562b0}" Name="_Manager" /><FieldRef ID="{a9951a77-a611-4dd7-bcf0-723574956180}" Name="_Department" /><FieldRef ID="{7943f8fa-f7bd-4d32-acd7-2fb9e5ac49d5}" Name="_EmployeeType" /><FieldRef ID="{9e007a6f-6702-4340-be42-2c449bf36944}" Name="_IDTaskTemplate" /><FieldRef ID="{5a455654-4101-413a-8a4a-b63d37f6afab}" Name="_EmployeeName" /><FieldRef ID="{d3bbe791-9f5a-4e26-b5bc-f2be217c516f}" Name="_StatusE" /><FieldRef ID="{eb2db618-b22b-4886-9dfd-15b0fd05cf4d}" Name="DOJ" /><FieldRef ID="{631dcb81-f13b-412a-8df8-ba3dd3d1069f}" Name="AdditionalComments" /><FieldRef ID="{4c0c61e6-8a8f-4779-a27b-2915f823751a}" Name="IsHMEmailSent" /><FieldRef ID="{705241f9-8d3a-45d0-9984-1fa47ddf0dd9}" Name="OffBoardEmployeeID" /><FieldRef ID="{73a78c38-630d-41aa-9ec4-4b5327a9af8d}" Name="Process" /><FieldRef ID="{0d4dcfc7-f086-43bf-bbdb-7d1028448ac2}" Name="PersonalEmail" /><FieldRef ID="{a84460f4-ce16-4f03-b0dc-7489158032f7}" Name="ContactNumber" /><FieldRef ID="{95a89cf9-7d7b-4051-a63a-ac3f367f434d}" Name="AlternateContactNumber" /><FieldRef ID="{fa34943a-a9ef-4709-be71-707ce2ba44b6}" Name="PresentEmployer" /><FieldRef ID="{288F5F32-8462-4175-8F09-DD7BA29359A9}" Name="Location" /><FieldRef ID="{23f6296a-3300-4daa-a08c-1391e7d3da7f}" Name="RecruitersName" /><FieldRef ID="{40c85d98-3a41-44b6-babd-9993e60c6a2a}" Name="OnOffboardStartDate" /></FieldRefs>
+      </ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+      
+    <Field Name="_EmployeeNumber" ID="{4bef426d-3f90-482a-8a86-fd4b3cfedc4d}" DisplayName="Employee Number" Type="Text" /><Field Name="_Position" ID="{6e6b5e2e-6c6d-4063-80b4-220e296fd3b5}" DisplayName="Position" Type="Lookup" List="Lists/Positionlst" ShowField="_PositionName" /><Field Name="_Manager" ID="{42eb231e-4150-481e-a958-6f344da562b0}" DisplayName="Manager" Type="UserMulti" Mult="TRUE" /><Field Name="_Department" ID="{a9951a77-a611-4dd7-bcf0-723574956180}" DisplayName="Department" Type="Lookup" List="Lists/Departmentlst" ShowField="_DepartmentName" /><Field Name="_EmployeeType" ID="{7943f8fa-f7bd-4d32-acd7-2fb9e5ac49d5}" DisplayName="Employee Type" Type="Lookup" List="Lists/EmployeeTypelst" ShowField="_EmployeeType" /><Field Name="_IDTaskTemplate" ID="{9e007a6f-6702-4340-be42-2c449bf36944}" DisplayName="TaskTemplate ID" Type="Lookup" List="Lists/TaskTemplateMaster" ShowField="_TaskTemplateName" /><Field Name="_EmployeeName" ID="{5a455654-4101-413a-8a4a-b63d37f6afab}" DisplayName="EmployeeName" Type="Text" /><Field Name="_StatusE" ID="{d3bbe791-9f5a-4e26-b5bc-f2be217c516f}" DisplayName="Status" Type="Text" /><Field Name="DOJ" ID="{eb2db618-b22b-4886-9dfd-15b0fd05cf4d}" DisplayName="DOJ" Type="DateTime" /><Field Name="AdditionalComments" ID="{631dcb81-f13b-412a-8df8-ba3dd3d1069f}" DisplayName="AdditionalComments" Type="Note" AppendOnly="TRUE" /><Field Name="IsHMEmailSent" ID="{4c0c61e6-8a8f-4779-a27b-2915f823751a}" DisplayName="IsHMEmailSent" Type="Boolean">
+        <Default>0</Default>
+      </Field><Field Name="OffBoardEmployeeID" ID="{705241f9-8d3a-45d0-9984-1fa47ddf0dd9}" DisplayName="OffBoardEmployeeID" Type="User" List="UserInfo" /><Field Name="Process" ID="{73a78c38-630d-41aa-9ec4-4b5327a9af8d}" DisplayName="Process" Type="Lookup" List="Lists/lstProcessType" ShowField="Title" /><Field Name="PersonalEmail" ID="{0d4dcfc7-f086-43bf-bbdb-7d1028448ac2}" DisplayName="Personal Email" Type="Text" /><Field Name="ContactNumber" ID="{a84460f4-ce16-4f03-b0dc-7489158032f7}" DisplayName="Contact Number" Type="Text" /><Field Name="AlternateContactNumber" ID="{95a89cf9-7d7b-4051-a63a-ac3f367f434d}" DisplayName="Alternate Contact Number" Type="Text" /><Field Name="PresentEmployer" ID="{fa34943a-a9ef-4709-be71-707ce2ba44b6}" DisplayName="Present Employer" Type="Text" /><Field ID="{288F5F32-8462-4175-8F09-DD7BA29359A9}" Type="Text" Group="$Resources:core,Person_Event_Columns;" Name="Location" DisplayName="$Resources:core,Location;" Sealed="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3/fields" StaticName="Location" AllowDeletion="TRUE" /><Field Name="RecruitersName" ID="{23f6296a-3300-4daa-a08c-1391e7d3da7f}" DisplayName="Recruiters Name" Type="Text" /><Field Name="OnOffboardStartDate" ID="{40c85d98-3a41-44b6-babd-9993e60c6a2a}" DisplayName="OnOffboard StartDate" Type="DateTime" /></Fields>
+    <Views>
+
+
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        <FieldRef Name="ID" /><FieldRef Name="_EmployeeNumber" /><FieldRef Name="_Position" /><FieldRef Name="_Manager" /><FieldRef Name="_Department" /><FieldRef Name="_EmployeeType" /><FieldRef Name="_IDTaskTemplate" /><FieldRef Name="Author" /><FieldRef Name="Created" /><FieldRef Name="Modified" /><FieldRef Name="Editor" /><FieldRef Name="_EmployeeName" /><FieldRef Name="_StatusE" /><FieldRef Name="DOJ" /><FieldRef Name="AdditionalComments" /><FieldRef Name="IsHMEmailSent" /><FieldRef Name="OffBoardEmployeeID" /><FieldRef Name="Process" /><FieldRef Name="PersonalEmail" /><FieldRef Name="ContactNumber" /><FieldRef Name="AlternateContactNumber" /><FieldRef Name="PresentEmployer" /><FieldRef Name="Location" /><FieldRef Name="RecruitersName" /><FieldRef Name="OnOffboardStartDate" /></ViewFields>
+        <Query>
+          <OrderBy>
+
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

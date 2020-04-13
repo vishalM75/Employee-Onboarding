@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Content">
+    <File Path="Content\App.css" Url="Content/App.css" ReplaceContent="TRUE" />
+    <File Path="Content\toastr.css" Url="Content/toastr.css" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap.min.css" Url="Content/bootstrap.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\font-awesome.min.css" Url="Content/font-awesome.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\datepicker.css" Url="Content/datepicker.css" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\fontawesome-webfont.eot" Url="Content/fonts/fontawesome-webfont.eot" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\fontawesome-webfont.svg" Url="Content/fonts/fontawesome-webfont.svg" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\fontawesome-webfont.ttf" Url="Content/fonts/fontawesome-webfont.ttf" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\fontawesome-webfont.woff" Url="Content/fonts/fontawesome-webfont.woff" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\fontawesome-webfont.woff2" Url="Content/fonts/fontawesome-webfont.woff2" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\FontAwesome.otf" Url="Content/fonts/FontAwesome.otf" ReplaceContent="TRUE" />
+    <File Path="Content\fontawesome.min.css" Url="Content/fontawesome.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\webfonts\fa-brands-400.eot" Url="Content/webfonts/fa-brands-400.eot" ReplaceContent="TRUE" />
+    <File Path="Content\webfonts\fa-brands-400.svg" Url="Content/webfonts/fa-brands-400.svg" ReplaceContent="TRUE" />
+    <File Path="Content\webfonts\fa-brands-400.ttf" Url="Content/webfonts/fa-brands-400.ttf" ReplaceContent="TRUE" />
+    <File Path="Content\webfonts\fa-brands-400.woff" Url="Content/webfonts/fa-brands-400.woff" ReplaceContent="TRUE" />
+    <File Path="Content\webfonts\fa-brands-400.woff2" Url="Content/webfonts/fa-brands-400.woff2" ReplaceContent="TRUE" />
+    <File Path="Content\webfonts\fa-regular-400.eot" Url="Content/webfonts/fa-regular-400.eot" ReplaceContent="TRUE" />
+    <File Path="Content\webfonts\fa-regular-400.svg" Url="Content/webfonts/fa-regular-400.svg" ReplaceContent="TRUE" />
+    <File Path="Content\webfonts\fa-regular-400.ttf" Url="Content/webfonts/fa-regular-400.ttf" ReplaceContent="TRUE" />
+    <File Path="Content\webfonts\fa-regular-400.woff" Url="Content/webfonts/fa-regular-400.woff" ReplaceContent="TRUE" />
+    <File Path="Content\webfonts\fa-regular-400.woff2" Url="Content/webfonts/fa-regular-400.woff2" ReplaceContent="TRUE" />
+    <File Path="Content\webfonts\fa-solid-900.eot" Url="Content/webfonts/fa-solid-900.eot" ReplaceContent="TRUE" />
+    <File Path="Content\webfonts\fa-solid-900.svg" Url="Content/webfonts/fa-solid-900.svg" ReplaceContent="TRUE" />
+    <File Path="Content\webfonts\fa-solid-900.ttf" Url="Content/webfonts/fa-solid-900.ttf" ReplaceContent="TRUE" />
+    <File Path="Content\webfonts\fa-solid-900.woff" Url="Content/webfonts/fa-solid-900.woff" ReplaceContent="TRUE" />
+    <File Path="Content\webfonts\fa-solid-900.woff2" Url="Content/webfonts/fa-solid-900.woff2" ReplaceContent="TRUE" />
+    <File Path="Content\FontAwesome_5.7\all.min.css" Url="Content/FontAwesome_5.7/all.min.css" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

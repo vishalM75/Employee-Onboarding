@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="TaskTemplateMaster" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/TaskTemplateMaster" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x0100637be64391b64cd4a371d9c9ef870fb1" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{2131b154-a70f-4957-a5ce-8df0e2ee1b73}" Name="_TaskTemplateName" /><FieldRef ID="{cf9e361c-8124-4b9c-9c48-7bf1160256a4}" Name="IsActive1" /><FieldRef ID="{fa3badab-5ee4-4f8a-bb26-e1aa829d3abe}" Name="ProcessType" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field Name="_TaskTemplateName" ID="{2131b154-a70f-4957-a5ce-8df0e2ee1b73}" DisplayName="TaskTemplateName" Type="Text" /><Field Name="IsActive1" ID="{cf9e361c-8124-4b9c-9c48-7bf1160256a4}" DisplayName="IsActive" Type="Boolean" /><Field Name="ProcessType" ID="{fa3badab-5ee4-4f8a-bb26-e1aa829d3abe}" DisplayName="ProcessType" Type="Lookup" List="Lists/lstProcessType" ShowField="Title" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="ID" /><FieldRef Name="Author" /><FieldRef Name="Editor" /><FieldRef Name="Created" /><FieldRef Name="Modified" /><FieldRef Name="_TaskTemplateName" /><FieldRef Name="IsActive1" /><FieldRef Name="ProcessType" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Images">
+    <File Path="Images\AppIcon.png" Url="Images/AppIcon.png" ReplaceContent="TRUE" />
+    <File Path="Images\bi_logo.png" Url="Images/bi_logo.png" ReplaceContent="TRUE" />
+    <File Path="Images\employee-onboarding-logo.png" Url="Images/employee-onboarding-logo.png" ReplaceContent="TRUE" />
+    <File Path="Images\user_img.png" Url="Images/user_img.png" ReplaceContent="TRUE" />
+    <File Path="Images\loader.gif" Url="Images/loader.gif" ReplaceContent="TRUE" />
+    <File Path="Images\your_license_has_expired.jpg" Url="Images/your_license_has_expired.jpg" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

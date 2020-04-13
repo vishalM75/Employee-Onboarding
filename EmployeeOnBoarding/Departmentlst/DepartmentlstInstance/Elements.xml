@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Departmentlst" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/Departmentlst" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="_DepartmentName">R&amp;D</Field>
+          <Field Name="ID">1</Field>
+          <Field Name="IsActive1">1</Field>
+        </Row>
+        <Row>
+          <Field Name="_DepartmentName">BPO</Field>
+          <Field Name="ID">2</Field>
+          <Field Name="IsActive1">1</Field>
+        </Row>
+        <Row>
+          <Field Name="_DepartmentName">IT Support</Field>
+          <Field Name="ID">3</Field>
+          <Field Name="IsActive1">1</Field>
+        </Row>
+        <Row>
+          <Field Name="_DepartmentName">HR</Field>
+          <Field Name="ID">4</Field>
+          <Field Name="IsActive1">1</Field>
+        </Row>
+        <Row>
+          <Field Name="_DepartmentName">Accounts</Field>
+          <Field Name="ID">5</Field>
+          <Field Name="IsActive1">1</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

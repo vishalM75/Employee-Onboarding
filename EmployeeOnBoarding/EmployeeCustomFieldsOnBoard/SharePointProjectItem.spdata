@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.ListDefinition" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="EmployeeCustomFieldsOnBoard\" Type="ElementManifest" />
+    <ProjectItemFile Source="Schema.xml" Target="EmployeeCustomFieldsOnBoard\" Type="ElementFile" />
+  </Files>
+  <ExtensionData>
+    <ExtensionDataItem Key="Microsoft.VisualStudio.SharePoint.ListSettings.ListFieldsContentTypeID" Value="0x010080a177680e0f42888e0cee8d2d7baa43" />
+  </ExtensionData>
+</ProjectItem>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="TaskTemplateDetail" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/TaskTemplateDetail" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x010034955b1375d44c25a084aa183aef8f17" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{2b943c66-0126-4f74-9cfc-e262fcf822a1}" Name="_IDStandardTask" /><FieldRef ID="{b83ab162-9a6e-4195-88fa-cfbb2a176e24}" Name="_IDTaskTemplate" /><FieldRef ID="{afc88355-0045-4b4a-933b-f18c4e5a0f64}" Name="_IDCategory" /><FieldRef ID="{28af536e-f9d7-4a37-a43e-bbbd414a9563}" Name="_IsActive" /><FieldRef ID="{69a450f8-e248-4f0e-8672-a1822020fa88}" Name="Level" /><FieldRef ID="{15fc0949-7b31-4ac7-ad28-026d15b68002}" Name="TaskLevel" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field Name="_IDStandardTask" ID="{2b943c66-0126-4f74-9cfc-e262fcf822a1}" DisplayName="StandardTask" Type="Lookup" List="Lists/StandardTask" ShowField="_TaskName" /><Field Name="_IDTaskTemplate" ID="{b83ab162-9a6e-4195-88fa-cfbb2a176e24}" DisplayName="Task Template " Type="Lookup" List="Lists/TaskTemplateMaster" ShowField="_TaskTemplateName" /><Field Name="_IDCategory" ID="{afc88355-0045-4b4a-933b-f18c4e5a0f64}" DisplayName="TaskCategory" Type="Lookup" List="Lists/Category" ShowField="CategoryName1" /><Field Name="_IsActive" ID="{28af536e-f9d7-4a37-a43e-bbbd414a9563}" DisplayName="IsActive" Type="Boolean" /><Field Name="Level" ID="{69a450f8-e248-4f0e-8672-a1822020fa88}" DisplayName="Level" Type="Text" /><Field Name="TaskLevel" ID="{15fc0949-7b31-4ac7-ad28-026d15b68002}" DisplayName="Task Level" Type="Lookup" List="Lists/Levellst" ShowField="Title"/></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="_IDStandardTask" /><FieldRef Name="_IDTaskTemplate" /><FieldRef Name="_IDCategory" /><FieldRef Name="ID" /><FieldRef Name="_IsActive" /><FieldRef Name="Level" /><FieldRef Name="TaskLevel" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

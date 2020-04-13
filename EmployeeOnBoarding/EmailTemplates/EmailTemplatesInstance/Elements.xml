@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="EmailTemplates" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/EmailTemplates" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="EmailTemplate"><![CDATA[
+              <html><body><table style='border:1px solid #ddd; padding:10px;' width='650' align='center' cellpadding='0' cellspacing='0'><tr><td style='color:#333; font-family:Arial; font-size:14px;'>Hello #RecieverName#,<br><br><strong> Following employee is on-boarded:</strong><br></td></tr><tr><td style='color:#333; font-family:Arial; font-size:14px;'><table cellpadding='0' cellspacing='0'><tr><td width='50%'>Employee Name</td><td width='10%'>:</td><td>#EmpName#</td></tr><tr><td>Date Of Joining</td><td width='10%'>:</td><td>#DOJ#</td></tr><tr><td>Position</td><td width='10%'>:</td><td>#Position#</td></tr><tr><td>Department</td><td width='10%'>:</td><td>#Department#</td></tr></table></td></tr><tr><td style='color:#333; font-family:Arial; font-size:14px;'><br>The initial tasks are:<br><br></td></tr><tr><td><table border='0' cellpadding='0' cellspacing='0' style='border:1px solid #ddd; border-collapse:collapse;'><thead><tr><th width='40%' style='border:1px solid #ddd; background:#666; color:#fff; padding:8px; font-family:Arial; font-size:14px; font-weight:bold;'>Task Name</th><th width='12%' style='border:1px solid #ddd; background:#666; color:#fff; padding:8px; font-family:Arial; font-size:14px; font-weight:bold;'>Start Date</th><th width='12%' style='border:1px solid #ddd; background:#666; color:#fff; padding:8px; font-family:Arial; font-size:14px; font-weight:bold;'>Due Date</th><th width='20%' style='border:1px solid #ddd; background:#666; color:#fff; padding:8px; font-family:Arial; font-size:14px; font-weight:bold;'>Category</th></tr></thead><tbody><tr><td colspan="4">#TasksRows#​​​​<br/></td></tr></tbody></table></td></tr><tr><td style='color:#333;  font-family:Arial; font-size:13px;'><br>To view additional details,<a href="#ManagerUrl">click here.</a></td></tr><tr><td style='color:#333;  font-family:Arial; font-size:14px; font-weight:bold' align='left'><br>Thank you<br>Employee Onboarding Team</td></tr></table></body></html>
+            ]]></Field>
+          <Field Name="Subject">Employee Onboard Notification</Field>
+          <Field Name="TemplateType">Employee Onboard With Tasks</Field>
+          <Field Name="ID">1</Field>
+          <Field Name="IsActive1">1</Field>
+        </Row>
+        <Row>
+          <Field Name="EmailTemplate"><![CDATA[
+              Hello #RecieverName#,<br><br>Following employee is on-boarded:<br><br>Employee Name  : #EmpName#<br>Date Of Joining :  #DOJ#<br>Position  :  #Position#<br>Department  :  #Department#<br><br>Please initiate necessary tasks for the employee.<br><br>To view additional details, <a href="#ManagerUrl">click here.</a><br><br>Thank you<br>Employee Onboarding Team
+            ]]></Field>
+          <Field Name="Subject">Employee Onboard Notification</Field>
+          <Field Name="TemplateType">Employee Onboard Without Tasks</Field>
+          <Field Name="ID">2</Field>
+          <Field Name="IsActive1">1</Field>
+        </Row>
+        <Row>
+          <Field Name="EmailTemplate"><![CDATA[
+              <html><body><table style='border:1px solid #ddd; padding:10px;' width='650' align='center' cellpadding='0' cellspacing='0'><tr><td style='color:#333; font-family:Arial; font-size:14px;'>Hello #RecieverName#,<br><br><strong> Following employee is off-boarded:</strong><br></td></tr><tr><td style='color:#333; font-family:Arial; font-size:14px;'><table cellpadding='0' cellspacing='0'><tr><td width='50%'>Employee Name</td><td width='10%'>:</td><td>#EmpName#</td></tr><tr><td>Date Of Relieving</td><td width='10%'>:</td><td>#DOJ#</td></tr><tr><td>Position</td><td width='10%'>:</td><td>#Position#</td></tr><tr><td>Department</td><td width='10%'>:</td><td>#Department#</td></tr></table></td></tr><tr><td style='color:#333; font-family:Arial; font-size:14px;'><br>The initial tasks are:<br><br></td></tr><tr><td><table border='0' cellpadding='0' cellspacing='0' style='border:1px solid #ddd; border-collapse:collapse;'><thead><tr><th width='40%' style='border:1px solid #ddd; background:#666; color:#fff; padding:8px; font-family:Arial; font-size:14px; font-weight:bold;'>Task Name</th><th width='12%' style='border:1px solid #ddd; background:#666; color:#fff; padding:8px; font-family:Arial; font-size:14px; font-weight:bold;'>Start Date</th><th width='12%' style='border:1px solid #ddd; background:#666; color:#fff; padding:8px; font-family:Arial; font-size:14px; font-weight:bold;'>Due Date</th><th width='20%' style='border:1px solid #ddd; background:#666; color:#fff; padding:8px; font-family:Arial; font-size:14px; font-weight:bold;'>Category</th></tr></thead><tbody><tr><td colspan="4">#TasksRows#​​​​<br/></td></tr></tbody></table></td></tr><tr><td style='color:#333;  font-family:Arial; font-size:13px;'><br>To view additional details,<a href="#ManagerUrl">click here.</a></td></tr><tr><td style='color:#333;  font-family:Arial; font-size:14px; font-weight:bold' align='left'><br>Thank you<br>Employee Onboarding Team</td></tr></table></body></html>
+            ]]></Field>
+          <Field Name="Subject">Employee Offboard Notification</Field>
+          <Field Name="TemplateType">Employee Offboard With Tasks</Field>
+          <Field Name="ID">3</Field>
+          <Field Name="IsActive1">1</Field>
+        </Row>
+        <Row>
+          <Field Name="EmailTemplate"><![CDATA[
+              Hello #RecieverName#,<br><br>Following employee is off-boarded:<br><br>Employee Name  :  #EmpName#<br>Date Of Relieving :  #DOJ#<br>Position  :  #Position#<br>Department  :  #Department#<br><br>Please initiate necessary tasks for the employee.<br><br>To view additional details, <a href="#ManagerUrl">click here.</a><br><br>Thank you<br>Employee Onboarding Team
+            ]]></Field>
+          <Field Name="Subject">Employee Offboard Notification</Field>
+          <Field Name="TemplateType">Employee Offboard Without Tasks</Field>
+          <Field Name="ID">4</Field>
+          <Field Name="IsActive1">1</Field>
+        </Row>
+        <Row>
+          <Field Name="EmailTemplate"><![CDATA[
+              <html><body><table style='border:1px solid #ddd; padding:10px;' width='650' align='center' cellpadding='0' cellspacing='0'><tr><td style='color:#333; font-family:Arial; font-size:14px;'>Hello #RecieverName#,<br><br><strong>On-boarded Employee Details :</strong></td></tr><tr><td style='color:#333; font-family:Arial; font-size:14px;'><table cellpadding='0' cellspacing='0'><tr><td width='50%'>Employee Name</td><td width='10%'>:</td><td>#EmpName#</td></tr><tr><td>Date Of Joining</td><td width='10%'>:</td><td>#DOJ#</td></tr><tr><td>Position</td><td width='10%'>:</td><td>#Position#</td></tr><tr><td>Department</td><td width='10%'>:</td><td>#Department#</td></tr></table></td></tr><tr><td style='color:#333; font-family:Arial; font-size:14px;'><br>Following #varG# assigned to you:<br><br></td></tr><tr><td><table border='0' cellpadding='0' cellspacing='0' style='border:1px solid #ddd; border-collapse:collapse;'><thead><tr><th width='40%' style='border:1px solid #ddd; background:#666; color:#fff; padding:8px; font-family:Arial; font-size:14px; font-weight:bold;'>Task Name</th><th width='12%' style='border:1px solid #ddd; background:#666; color:#fff; padding:8px; font-family:Arial; font-size:14px; font-weight:bold;'>Start Date</th><th width='12%' style='border:1px solid #ddd; background:#666; color:#fff; padding:8px; font-family:Arial; font-size:14px; font-weight:bold;'>Due Date</th><th width='20%' style='border:1px solid #ddd; background:#666; color:#fff; padding:8px; font-family:Arial; font-size:14px; font-weight:bold;'>Category</th></tr></thead><tbody><tr><td colspan="4">#TasksRows#​​​​<br/></td></tr></tbody></table></td></tr><tr><td style='color:#333;  font-family:Arial; font-size:13px;'><br>To view additional details,<a href="#MyTaskUrl">click here.</a><br></td></tr><tr><td style='color:#333;  font-family:Arial; font-size:14px; font-weight:bold' align='left'><br>Thank you<br>Employee Onboarding Team</td></tr></table></body></html>
+            ]]></Field>
+          <Field Name="Subject">Task Assignment Notification</Field>
+          <Field Name="TemplateType">On-board Task Assignment</Field>
+          <Field Name="ID">5</Field>
+          <Field Name="IsActive1">1</Field>
+        </Row>
+        <Row>
+          <Field Name="EmailTemplate"><![CDATA[<html><body><table style='border:1px solid #ddd; padding:10px;' width='650' align='center' cellpadding='0' cellspacing='0'><tr><td style='color:#333; font-family:Arial; font-size:14px;'>Hello #RecieverName#,<br><br><strong>Off-boarded Employee Details :</strong></td></tr><tr><td style='color:#333; font-family:Arial; font-size:14px;'><table cellpadding='0' cellspacing='0'><tr><td width='50%'>Employee Name</td><td width='10%'>:</td><td>#EmpName#</td></tr><tr><td>Date Of Relieving</td><td width='10%'>:</td><td>#DOJ#</td></tr><tr><td>Position</td><td width='10%'>:</td><td>#Position#</td></tr><tr><td>Department</td><td width='10%'>:</td><td>#Department#</td></tr></table></td></tr><tr><td style='color:#333; font-family:Arial; font-size:14px;'><br>Following #varG# assigned to you:<br><br></td></tr><tr><td><table border='0' cellpadding='0' cellspacing='0' style='border:1px solid #ddd; border-collapse:collapse;'><thead><tr><th width='40%' style='border:1px solid #ddd; background:#666; color:#fff; padding:8px; font-family:Arial; font-size:14px; font-weight:bold;'>Task Name</th><th width='12%' style='border:1px solid #ddd; background:#666; color:#fff; padding:8px; font-family:Arial; font-size:14px; font-weight:bold;'>Start Date</th><th width='12%' style='border:1px solid #ddd; background:#666; color:#fff; padding:8px; font-family:Arial; font-size:14px; font-weight:bold;'>Due Date</th><th width='20%' style='border:1px solid #ddd; background:#666; color:#fff; padding:8px; font-family:Arial; font-size:14px; font-weight:bold;'>Category</th></tr></thead><tbody><tr><td colspan="4">#TasksRows#​​​​<br/></td></tr></tbody></table></td></tr><tr><td style='color:#333;  font-family:Arial; font-size:13px;'><br>To view additional details,<a href="#MyTaskUrl">click here.</a><br></td></tr><tr><td style='color:#333;  font-family:Arial; font-size:14px; font-weight:bold' align='left'><br>Thank you<br>Employee Onboarding Team</td></tr></table></body></html>
+            ]]></Field>
+          <Field Name="Subject">Task Assignment Notification</Field>
+          <Field Name="TemplateType">Off-board Task Assignment</Field>
+          <Field Name="ID">6</Field>
+          <Field Name="IsActive1">1</Field>
+        </Row>
+        <Row>
+          <Field Name="EmailTemplate">
+            <![CDATA[
+<html><body><p>Hello #EmpName#,</p><p> <br></p><p>We are glad to inform you that your onboarding process has been initiated and your date of joining is #DOJ#.</p><p>For record purposes, we have entered the following details of yours into our Onboarding system. We request you to verify them and let us know in case of any discrepancies.</p><p>&nbsp;</p><ul type="circle"> <li>Employee name:&nbsp;#EmpName#</li><li>Personal email ID:&nbsp;#PersonalEmail#</li><li>Contact No:&nbsp;#ContactNumber#</li><li>Alternate Contact No:&nbsp;#AlternateContactNumber#</li><li>Location:&nbsp;#Location</li></ul><p>We wish you all the best for your new endeavor and see you soon!</p><p>&nbsp;</p><p>Cheers!</p><p>Onboarding team</p></html></body>
+            ]]>
+          </Field>
+          <Field Name="Subject">Onboarding initiated Notification</Field>
+          <Field Name="TemplateType">Onboarding initiated</Field>
+          <Field Name="ID">7</Field>
+          <Field Name="IsActive1">1</Field>
+        </Row>
+        <Row>
+          <Field Name="EmailTemplate">
+            <![CDATA[
+		<html><body><p>Hello #EmpName# ,</p><p>&nbsp;</p><p>This is to inform you that your offboarding process has been initiated and your date of relieving is #DOR#.</p><p>&nbsp;</p><p>The concerned team is working towards completing your relieving formalities. In the meantime, please check the Employee Offboarding task list assigned to you and complete your tasks for smooth offboarding.</p><p>You may contact the HR team for any further enquires.</p><p>&nbsp;</p><p>Wish you all the best for your future endeavors.</p><p>&nbsp;</p><p>Best regards,</p><p>Offboarding team</p></html></body>
+ ]]>
+          </Field>
+          <Field Name="Subject">Offboarding initiated Notification</Field>
+          <Field Name="TemplateType">Offboarding initiated</Field>
+          <Field Name="ID">8</Field>
+          <Field Name="IsActive1">1</Field>
+        </Row>
+        <Row>
+          <Field Name="EmailTemplate">
+            <![CDATA[<html><body><table width='800' align='center' cellpadding='0' cellspacing='0' style='border: 1px solid #dddddd; padding: 10px;'><tbody><tr><td style='color: #333333; font-family: arial; font-size: 14px;'>Hello #AssignedToName#,<br/><br/><strong> Following tasks are overdue:</strong><br/></td></tr><tr><td><table border='0' cellpadding='0' cellspacing='0' style='border: 1px solid #dddddd; border-collapse: collapse;'><thead><tr><th width='20%' style='border: 1px solid #dddddd; background: #666666; color: #ffffff; padding: 8px; font-family: arial; font-size: 14px; font-weight: bold;'>#OBTitle# Name</th><th width='40%' style='border: 1px solid #dddddd; background: #666666; color: #ffffff; padding: 8px; font-family: arial; font-size: 14px; font-weight: bold;'>Task Name</th><th width='15%' style='border: 1px solid #dddddd; background: #666666; color: #ffffff; padding: 8px; font-family: arial; font-size: 14px; font-weight: bold;'>Category</th><th width='12%' style='border: 1px solid #dddddd; background: #666666; color: #ffffff; paing: 8px; font-family: arial; font-size: 14px; font-weight: bold;'>Process</th><th width='12%' style='border: 1px solid #dddddd; background: #666666; color: #ffffff; padding: 8px; font-family: arial; font-size: 14px; font-weight: bold;'>Due Date</th></tr></thead><tbody><tr><td colspan='5'>#TasksRows#<br/></td></tr></tbody></table></td></tr><tr><td style='color: #333333; font-family: arial; font-size: 13px;'><br/>To view additional details,<a href='#MyTasksUrl#'>click here.</a></td></tr><tr><td align='left' style='color: #333333; font-family: arial; font-size: 14px; font-weight: bold;'><br/>Thank you<br/>#OnboardingTitle# Onboarding Team</td></tr></tbody></table></body></html>
+            ]]>
+          </Field>
+          <Field Name="Subject">Task Overdue Notification</Field>
+          <Field Name="TemplateType">Task Overdue</Field>
+          <Field Name="ID">9</Field>
+          <Field Name="IsActive1">1</Field>
+        </Row>
+        <Row>
+          <Field Name="EmailTemplate">
+            <![CDATA[<html><body><table width='800' align='center' cellpadding='0' cellspacing='0' style='border: 1px solid #dddddd; padding: 10px;'><tbody><tr><td style='color: #333333; font-family: arial; font-size: 14px;'>Hello #AssignedToName#,<br/><br/><strong> Following tasks are pending:</strong><br/></td></tr><tr><td><table border='0' cellpadding='0' cellspacing='0' style='border: 1px solid #dddddd; border-collapse: collapse;'><thead><tr><th width='20%' style='border: 1px solid #dddddd; background: #666666; color: #ffffff; padding: 8px; font-family: arial; font-size: 14px; font-weight: bold;'>#OBTitle# Name</th><th width='40%' style='border: 1px solid #dddddd; background: #666666; color: #ffffff; padding: 8px; font-family: arial; font-size: 14px; font-weight: bold;'>Task Name</th><th width='15%' style='border: 1px solid #dddddd; background: #666666; color: #ffffff; padding: 8px; font-family: arial; font-size: 14px; font-weight: bold;'>Category</th><th width='12%' style='border: 1px solid #dddddd; background: #666666; color: #ffffff; paing: 8px; font-family: arial; font-size: 14px; font-weight: bold;'>Process</th><th width='12%' style='border: 1px solid #dddddd; background: #666666; color: #ffffff; padding: 8px; font-family: arial; font-size: 14px; font-weight: bold;'>Due Date</th></tr></thead><tbody><tr><td colspan='5'>#TasksRows#<br/></td></tr></tbody></table></td></tr><tr><td style='color: #333333; font-family: arial; font-size: 13px;'><br/>To view additional details,<a href='#MyTasksUrl#'>click here.</a></td></tr><tr><td align='left' style='color: #333333; font-family: arial; font-size: 14px; font-weight: bold;'><br/>Thank you<br/>#OnboardingTitle# Onboarding Team</td></tr></tbody></table></body></html>
+            ]]>
+          </Field>
+          <Field Name="Subject">Pending task Notification</Field>
+          <Field Name="TemplateType">Task Pending</Field>
+          <Field Name="ID">10</Field>
+          <Field Name="IsActive1">1</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Positionlst" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/Positionlst" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="_PositionName">Developer</Field>
+          <Field Name="ID">1</Field>
+          <Field Name="IsActive1">1</Field>
+        </Row>
+        <Row>
+          <Field Name="_PositionName">Quality Assurance</Field>
+          <Field Name="ID">2</Field>
+          <Field Name="IsActive1">1</Field>
+        </Row>
+        <Row>
+          <Field Name="_PositionName">Designer</Field>
+          <Field Name="ID">3</Field>
+          <Field Name="IsActive1">1</Field>
+        </Row>
+        <Row>
+          <Field Name="_PositionName">Executive</Field>
+          <Field Name="ID">4</Field>
+          <Field Name="IsActive1">1</Field>
+        </Row>
+        <Row>
+          <Field Name="_PositionName">Network Engineer</Field>
+          <Field Name="ID">5</Field>
+          <Field Name="IsActive1">1</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="EODataAnalytics" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/EODataAnalytics" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="AnalyticsType">Onboarded Employee</Field>
+          <Field Name="ID">1</Field>
+          <Field Name="Count">0</Field>
+        </Row>
+        <Row>
+          <Field Name="AnalyticsType">Standard Task</Field>
+          <Field Name="ID">2</Field>
+          <Field Name="Count">0</Field>
+        </Row>       
+      </Rows>
+    </Data>
+    
+  </ListInstance>
+</Elements>

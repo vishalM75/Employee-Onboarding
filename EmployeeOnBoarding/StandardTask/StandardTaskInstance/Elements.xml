@@ -1,0 +1,648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="StandardTask" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/StandardTask" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="_TaskName">Sent offer letter and confirmed acceptance</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">1</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">8</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Completed workspace setup</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">3</Field>
+          <Field Name="ID">2</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">8</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Completed equipment setup</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">3</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">8</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Generated domain account and email ID</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">4</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">8</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Updated distribution list</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">5</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">8</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Performed other tasks such as business cards order</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">6</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">8</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Received previous company work experience letter</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">7</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">8</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Welcome letter generated and sent to manager with all details</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">8</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">8</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Drug test/background check completed</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">9</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">8</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Employee ID Card (UNICARD) and Secured Device (if applicable) issued</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">10</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">7</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Induction/ Orientation (overview about organization culture, dress code, timesheets/leave reports)</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">11</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">7</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Set up Meeting with Manager</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">12</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">7</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Tour of workspace, department layouts</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">2</Field>
+          <Field Name="ID">13</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">7</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">G-Drive access request</Field>
+          <Field Name="TaskLevel">2</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">14</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">7</Field>
+          <Field Name="TaskDepartment">2</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Mobile phone request</Field>
+          <Field Name="TaskLevel">2</Field>
+          <Field Name="_ResolutionDays">5</Field>
+          <Field Name="ID">15</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">7</Field>
+          <Field Name="TaskDepartment">2</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Share company policies</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">16</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">7</Field>
+          <Field Name="TaskDepartment">2</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Employment contract signed and submitted</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">17</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">6</Field>
+          <Field Name="TaskDepartment">2</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">I-9 form filled and submitted</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">3</Field>
+          <Field Name="ID">18</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">6</Field>
+          <Field Name="TaskDepartment">2</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">W-4 form duly filled and submitted to Finance team</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">3</Field>
+          <Field Name="ID">19</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">6</Field>
+          <Field Name="TaskDepartment">2</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Read specific protocols/ procedures</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">20</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">6</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Read the Employee benefits policy and attended meeting regarding the same?</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">21</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">6</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Read Leaves policy</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">22</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">6</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Read the Payroll Practices policy</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">23</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">6</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Read the Nondiscrimination in employment policy</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">24</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">6</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Read the Death Payments policy</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">25</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">6</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Parking Permit form submitted</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">5</Field>
+          <Field Name="ID">26</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">6</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Submitted other necessary documents and photographs</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">3</Field>
+          <Field Name="ID">27</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">6</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Employee handbook received</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">28</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">6</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Gave onboarding experience feedback</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">29</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">6</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Assign Laptop</Field>
+          <Field Name="TaskLevel">2</Field>
+          <Field Name="_ResolutionDays">2</Field>
+          <Field Name="ID">30</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">5</Field>
+          <Field Name="TaskDepartment">2</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Assign Computer</Field>
+          <Field Name="TaskLevel">2</Field>
+          <Field Name="_ResolutionDays">2</Field>
+          <Field Name="ID">31</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">5</Field>
+          <Field Name="TaskDepartment">2</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Assign Phone</Field>
+          <Field Name="TaskLevel">2</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">32</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">5</Field>
+          <Field Name="TaskDepartment">2</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Provide Head Phone</Field>
+          <Field Name="TaskLevel">2</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">33</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">5</Field>
+          <Field Name="TaskDepartment">2</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">SharePoint</Field>
+          <Field Name="TaskLevel">2</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">34</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">5</Field>
+          <Field Name="TaskDepartment">2</Field>
+          <Field Name="ProcessType">1</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Obtain and accept resignation letter.</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">35</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">1</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">2</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Enter employee departure date in HR system to trigger oﬀboarding checklist and alerts to key departments.</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">36</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">1</Field>
+          <Field Name="TaskDepartment">2</Field>
+          <Field Name="ProcessType">2</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Conﬁrm employee appointment with beneﬁts team.</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">5</Field>
+          <Field Name="ID">37</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">1</Field>
+          <Field Name="TaskDepartment">3</Field>
+          <Field Name="ProcessType">2</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Begin processing any outstanding expense reports, petty cash or other expenses.</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">38</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">1</Field>
+          <Field Name="TaskDepartment">5</Field>
+          <Field Name="ProcessType">2</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Begin processing of paid time oﬀ and/or leave balances.</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">2</Field>
+          <Field Name="ID">39</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">1</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">2</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Remove personal information from company-owned devices.</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">40</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">2</Field>
+          <Field Name="TaskDepartment">2</Field>
+          <Field Name="ProcessType">2</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Schedule ﬁnal manager/team lunch/happy hour with departing employee.</Field>
+          <Field Name="TaskLevel">2</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">41</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">2</Field>
+          <Field Name="TaskDepartment">4</Field>
+          <Field Name="ProcessType">2</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Identify and transfer ﬁles, documents, emails, department app log-ins and other records to supervisor.</Field>
+          <Field Name="TaskLevel">2</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">42</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">2</Field>
+          <Field Name="TaskDepartment">5</Field>
+          <Field Name="ProcessType">2</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Collaborate with employee on knowledge transfer list of current project status, internal and external contacts and other key information.</Field>
+          <Field Name="TaskLevel">2</Field>
+          <Field Name="_ResolutionDays">10</Field>
+          <Field Name="ID">42</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">2</Field>
+          <Field Name="TaskDepartment">5</Field>
+          <Field Name="ProcessType">2</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Notify team and appropriate stakeholders of employee departure.</Field>
+          <Field Name="TaskLevel">2</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">43</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">2</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">2</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Employee meeting with HR team to discuss beneﬁts, paid time oﬀ balances, retirement plans and employment veriﬁcation process.</Field>
+          <Field Name="TaskLevel">2</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">44</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">2</Field>
+          <Field Name="TaskDepartment">2</Field>
+          <Field Name="ProcessType">2</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Return all keys, IDs, credit cards, calling cards, permits and other company property.</Field>
+          <Field Name="TaskLevel">2</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">45</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">2</Field>
+          <Field Name="TaskDepartment">3</Field>
+          <Field Name="ProcessType">2</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Return all phones, computing devices and media.</Field>
+          <Field Name="TaskLevel">2</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">46</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">2</Field>
+          <Field Name="TaskDepartment">4</Field>
+          <Field Name="ProcessType">2</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Provide reliable contact information (home address, phone, email address) for future correspondence (especially for payroll and W-2).</Field>
+          <Field Name="TaskLevel">2</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">47</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">2</Field>
+          <Field Name="TaskDepartment">5</Field>
+          <Field Name="ProcessType">2</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Conduct exit interviews for feedback either through online survey or in-person meeting.</Field>
+          <Field Name="TaskLevel">2</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">48</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">2</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">2</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Ask employee to sign agreement conﬁrming removal of company data from personal services and devices.</Field>
+          <Field Name="TaskLevel">2</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">49</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">3</Field>
+          <Field Name="TaskDepartment">2</Field>
+          <Field Name="ProcessType">2</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Meet with IT to review scope of employee electronic footprint and property transfer completion.</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">50</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">3</Field>
+          <Field Name="TaskDepartment">3</Field>
+          <Field Name="ProcessType">2</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Remove all personal items from workspace.</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">51</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">3</Field>
+          <Field Name="TaskDepartment">4</Field>
+          <Field Name="ProcessType">2</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Review checklist in offboarding system with employee, verify all tasks completed.</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">52</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">3</Field>
+          <Field Name="TaskDepartment">5</Field>
+          <Field Name="ProcessType">2</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Reminder to send follow-up termination information.</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">53</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">4</Field>
+          <Field Name="TaskDepartment">1</Field>
+          <Field Name="ProcessType">2</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Notify partners.</Field>
+          <Field Name="TaskLevel">2</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">54</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">4</Field>
+          <Field Name="TaskDepartment">2</Field>
+          <Field Name="ProcessType">2</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Cancel memberships (industry), licenses, contracts.</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">55</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">4</Field>
+          <Field Name="TaskDepartment">3</Field>
+          <Field Name="ProcessType">2</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Remove from recurring meeting schedules; update org charts, company contacts, mailbox, nameplate.</Field>
+          <Field Name="TaskLevel">2</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">56</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">4</Field>
+          <Field Name="TaskDepartment">4</Field>
+          <Field Name="ProcessType">2</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+        <Row>
+          <Field Name="_TaskName">Review of employee feedback given at exit interview for continuous improvement.</Field>
+          <Field Name="TaskLevel">1</Field>
+          <Field Name="_ResolutionDays">1</Field>
+          <Field Name="ID">57</Field>
+          <Field Name="IsActive1">1</Field>
+          <Field Name="_IDCategory">4</Field>
+          <Field Name="TaskDepartment">5</Field>
+          <Field Name="ProcessType">2</Field>
+          <Field Name="TaskType1">Standard Task</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

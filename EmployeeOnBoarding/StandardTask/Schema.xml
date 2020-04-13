@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="StandardTask" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/StandardTask" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" VersioningEnabled="TRUE">
+  <MetaData>
+    <ContentTypes>
+
+
+
+
+
+      
+      
+      
+    <ContentType ID="0x01003947c1d8c90c43fc855bbe138d26cecd" Name="ListFieldsContentType">
+        <FieldRefs>
+
+
+
+
+
+          
+          
+          
+          
+          
+          
+        <FieldRef ID="{977c4b07-7563-4b0b-91b9-88628c24ee7d}" Name="_TaskName" /><FieldRef ID="{72227493-83a1-4f05-9806-fb0087f2e719}" Name="_TaskLevel" /><FieldRef ID="{6b5a2114-363d-4dcd-9516-3cd975f3c432}" Name="_ResolutionDays" /><FieldRef ID="{246843be-12b1-45b1-a10e-3fd665855f60}" Name="_IDCategory" /><FieldRef ID="{bd2c464c-0a68-4062-9196-4fc5d032e816}" Name="_AssignedTo" /><FieldRef ID="{6317a647-28bb-4b4c-bef7-937a51276064}" Name="Remarks" /><FieldRef ID="{0956db95-86da-461e-8373-8e626d56b568}" Name="IsActive1" /><FieldRef ID="{d723b767-0a55-4dad-a7f1-8e6e44a1d3f6}" Name="ProcessType" /><FieldRef ID="{56cc50f2-169f-4311-9237-8ae8a41a5f30}" Name="TaskType1" /><FieldRef ID="{136650bd-a7b8-4117-b5b5-0860540b0acc}" Name="TaskDepartment" /><FieldRef ID="{686bf82e-23c8-480a-a6be-d43933cf7240}" Name="TaskFlow" /><FieldRef ID="{1a618dda-5e2e-4455-b2f0-72aefc42ad20}" Name="TaskLevel" /><FieldRef ID="{f3e26787-014e-436c-8e74-ef8d6a480975}" Name="DependentTasks" /><FieldRef ID="{ccdce0c9-6a3f-441f-a2e7-6c27ebd7fd06}" Name="MandatoryTaskType" /></FieldRefs>
+      </ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+
+
+
+
+
+
+
+      
+      
+      
+      
+      
+      
+    <Field Name="_TaskName" ID="{977c4b07-7563-4b0b-91b9-88628c24ee7d}" DisplayName="Task Name" Type="Text" /><Field Name="_TaskLevel" ID="{72227493-83a1-4f05-9806-fb0087f2e719}" DisplayName="Task Level" Type="Text" List="Lists/Levellst" ShowField="Title" /><Field Name="_ResolutionDays" ID="{6b5a2114-363d-4dcd-9516-3cd975f3c432}" DisplayName="Resolution Days" Type="Text" /><Field Name="_IDCategory" ID="{246843be-12b1-45b1-a10e-3fd665855f60}" DisplayName="Category_ID" Type="Lookup" List="Lists/Category" ShowField="CategoryName1" AllowMultiVote="TRUE" /><Field Name="_AssignedTo" ID="{bd2c464c-0a68-4062-9196-4fc5d032e816}" DisplayName="Assigned To" Type="UserMulti" Mult="TRUE" /><Field Name="Remarks" ID="{6317a647-28bb-4b4c-bef7-937a51276064}" DisplayName="Remarks" Type="Note" AppendOnly="TRUE" /><Field Name="IsActive1" ID="{0956db95-86da-461e-8373-8e626d56b568}" DisplayName="Active" Type="Boolean" /><Field Name="ProcessType" ID="{d723b767-0a55-4dad-a7f1-8e6e44a1d3f6}" DisplayName="Process Type" Type="Lookup" List="Lists/lstProcessType" ShowField="Title" /><Field Name="TaskType1" ID="{56cc50f2-169f-4311-9237-8ae8a41a5f30}" DisplayName="Task Type" Type="Text" /><Field Name="TaskDepartment" ID="{136650bd-a7b8-4117-b5b5-0860540b0acc}" DisplayName="Task Department" Type="Lookup" List="Lists/Departmentlst" ShowField="_DepartmentName" /><Field Name="TaskFlow" ID="{686bf82e-23c8-480a-a6be-d43933cf7240}" DisplayName="Task Flow" Type="Text" /><Field Name="TaskLevel" ID="{1a618dda-5e2e-4455-b2f0-72aefc42ad20}" DisplayName="Task Level" Type="Lookup" List="Lists/Levellst" ShowField="Title" /><Field Name="DependentTasks" ID="{f3e26787-014e-436c-8e74-ef8d6a480975}" DisplayName="Dependent Tasks" Type="Note" /><Field Name="MandatoryTaskType" ID="{ccdce0c9-6a3f-441f-a2e7-6c27ebd7fd06}" DisplayName="MandatoryTaskType" Type="Boolean" /></Fields>
+    <Views>
+
+
+
+
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+
+
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+
+
+
+
+
+
+          
+          
+          
+          
+          
+          
+          
+        <FieldRef Name="_TaskName" /><FieldRef Name="_TaskLevel" /><FieldRef Name="_ResolutionDays" /><FieldRef Name="ID" /><FieldRef Name="_IDCategory" /><FieldRef Name="_AssignedTo" /><FieldRef Name="Remarks" /><FieldRef Name="IsActive1" /><FieldRef Name="ProcessType" /><FieldRef Name="TaskType1" /><FieldRef Name="TaskDepartment" /><FieldRef Name="TaskFlow" /><FieldRef Name="TaskLevel" /><FieldRef Name="DependentTasks" /><FieldRef Name="MandatoryTaskType" /></ViewFields>
+        <Query>
+          <OrderBy>
+
+
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.ListDefinition" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="UserPermission\" Type="ElementManifest" />
+    <ProjectItemFile Source="Schema.xml" Target="UserPermission\" Type="ElementFile" />
+  </Files>
+  <ExtensionData>
+    <ExtensionDataItem Key="Microsoft.VisualStudio.SharePoint.ListSettings.ListFieldsContentTypeID" Value="0x01001e1f3b020c7c4c8e84784857fce4f4aa" />
+  </ExtensionData>
+</ProjectItem>

@@ -1,0 +1,677 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E17B3726-EA7B-4A84-B2E0-1ADC52225D31}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EmployeeOnBoarding</RootNamespace>
+    <AssemblyName>Employee Onboarding</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.1</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>12.2</MinimumOfficeToolsVersion>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{24b77e43-35d7-4b7d-b744-4be5dd02d0b2}</AppFeaturePartId>
+    <WspPartId>{e68dec77-562a-4640-a7ed-816969fe13ff}</WspPartId>
+    <WorkflowPartId>{2d9daa7d-9259-4761-84fe-73c00f03e29d}</WorkflowPartId>
+    <CspkgPartId>{e12cbcc2-ed20-4c24-8601-ebe3038af911}</CspkgPartId>
+    <SqlPackagePartId>{e04872e4-7113-4a3d-a5b6-560dad942828}</SqlPackagePartId>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>15.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="ActualTasks\ActualTasksInstance\Elements.xml" />
+    <Content Include="ActualTasks\Elements.xml" />
+    <Content Include="ActualTasks\Schema.xml" />
+    <Content Include="BrowserDataInfo\BrowserDataInfoInstance\Elements.xml" />
+    <Content Include="BrowserDataInfo\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="BrowserDataInfo\Schema.xml" />
+    <Content Include="Category\CategoryInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Category\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Category\Schema.xml" />
+    <Content Include="Configurations\ConfigurationsInstance\Elements.xml" />
+    <Content Include="Configurations\Elements.xml" />
+    <Content Include="Configurations\Schema.xml" />
+    <Content Include="Content\FontAwesome_5.7\all.min.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\datepicker.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\fontawesome.min.css" />
+    <Content Include="Content\webfonts\fa-brands-400.svg" />
+    <Content Include="Content\webfonts\fa-regular-400.svg" />
+    <Content Include="Content\webfonts\fa-solid-900.svg" />
+    <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\toastr.css" />
+    <Content Include="Departmentlst\DepartmentlstInstance\Elements.xml" />
+    <Content Include="Departmentlst\Elements.xml" />
+    <Content Include="Departmentlst\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Elements.xml" />
+    <Content Include="EmailTemplates\Elements.xml" />
+    <Content Include="EmailTemplates\EmailTemplatesInstance\Elements.xml" />
+    <Content Include="EmailTemplates\Schema.xml" />
+    <Content Include="EmployeeCustomFieldsOffBoard\Elements.xml" />
+    <Content Include="EmployeeCustomFieldsOffBoard\EmployeeCustomFieldsOffBoardInstance\Elements.xml" />
+    <Content Include="EmployeeCustomFieldsOffBoard\Schema.xml" />
+    <Content Include="EmployeeCustomFieldsOnBoard\Elements.xml" />
+    <Content Include="EmployeeCustomFieldsOnBoard\EmployeeCustomFieldsOnBoardInstance\Elements.xml" />
+    <Content Include="EmployeeCustomFieldsOnBoard\Schema.xml" />
+    <Content Include="EmployeeTypelst\Elements.xml" />
+    <Content Include="EmployeeTypelst\EmployeeTypelstInstance\Elements.xml" />
+    <Content Include="EmployeeTypelst\Schema.xml" />
+    <Content Include="EODataAnalytics\Elements.xml" />
+    <Content Include="EODataAnalytics\EODataAnalyticsInstance\Elements.xml" />
+    <Content Include="EODataAnalytics\Schema.xml" />
+    <Content Include="Features\Feature10\Feature10.Template.xml">
+      <DependentUpon>Feature10.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature11\Feature11.Template.xml">
+      <DependentUpon>Feature11.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature12\Feature12.Template.xml">
+      <DependentUpon>Feature12.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature13\Feature13.Template.xml">
+      <DependentUpon>Feature13.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature14\Feature14.Template.xml">
+      <DependentUpon>Feature14.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature15\Feature15.Template.xml">
+      <DependentUpon>Feature15.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature16\Feature16.Template.xml">
+      <DependentUpon>Feature16.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature17\Feature17.Template.xml">
+      <DependentUpon>Feature17.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature18\Feature18.Template.xml">
+      <DependentUpon>Feature18.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature19\Feature19.Template.xml">
+      <DependentUpon>Feature19.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature20\Feature20.Template.xml">
+      <DependentUpon>Feature20.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature21\Feature21.Template.xml">
+      <DependentUpon>Feature21.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature22\Feature22.Template.xml">
+      <DependentUpon>Feature22.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature23\Feature23.Template.xml">
+      <DependentUpon>Feature23.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature24\Feature24.Template.xml">
+      <DependentUpon>Feature24.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature25\Feature25.Template.xml">
+      <DependentUpon>Feature25.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature26\Feature26.Template.xml">
+      <DependentUpon>Feature26.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature2\Feature2.Template.xml">
+      <DependentUpon>Feature2.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature3\Feature3.Template.xml">
+      <DependentUpon>Feature3.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature4\Feature4.Template.xml">
+      <DependentUpon>Feature4.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature5\Feature5.Template.xml">
+      <DependentUpon>Feature5.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature6\Feature6.Template.xml">
+      <DependentUpon>Feature6.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature7\Feature7.Template.xml">
+      <DependentUpon>Feature7.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature8\Feature8.Template.xml">
+      <DependentUpon>Feature8.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature9\Feature9.Template.xml">
+      <DependentUpon>Feature9.feature</DependentUpon>
+    </Content>
+    <Content Include="Images\bi_logo.png" />
+    <Content Include="Images\employee-onboarding-logo.png" />
+    <Content Include="Images\loader.gif" />
+    <Content Include="Images\user_img.png" />
+    <Content Include="Images\your_license_has_expired.jpg" />
+    <Content Include="Levellst\Elements.xml" />
+    <Content Include="Levellst\LevellstInstance\Elements.xml" />
+    <Content Include="Levellst\Schema.xml" />
+    <Content Include="Logo Image\EditDlg.htm" />
+    <Content Include="Logo Image\Elements.xml" />
+    <Content Include="Logo Image\FileDlg.htm" />
+    <Content Include="Logo Image\Logo Image Instance\Elements.xml" />
+    <Content Include="Logo Image\Repair.aspx" />
+    <Content Include="Logo Image\Schema.xml" />
+    <Content Include="Logo Image\Upload.aspx" />
+    <Content Include="Log\Elements.xml" />
+    <Content Include="Log\LogInstance\Elements.xml" />
+    <Content Include="Log\Schema.xml" />
+    <Content Include="lstEmployeeOnBoardDetail\Elements.xml" />
+    <Content Include="lstEmployeeOnBoardDetail\lstEmployeeOnBoardDetailInstance\Elements.xml" />
+    <Content Include="lstEmployeeOnBoardDetail\Schema.xml" />
+    <Content Include="lstEmployeeOnboard\Elements.xml" />
+    <Content Include="lstEmployeeOnboard\lstEmployeeOnboardInstance\Elements.xml" />
+    <Content Include="lstEmployeeOnboard\Schema.xml" />
+    <Content Include="lstProcessType\Elements.xml" />
+    <Content Include="lstProcessType\lstProcessTypeInstance\Elements.xml" />
+    <Content Include="lstProcessType\Schema.xml" />
+    <Content Include="Page Analytics\Elements.xml" />
+    <Content Include="Page Analytics\Page Analytics Instance\Elements.xml" />
+    <Content Include="Page Analytics\Schema.xml" />
+    <Content Include="Pages\Dashboard.aspx" />
+    <Content Include="Pages\DataAnalytics.aspx" />
+    <Content Include="Pages\Demo.html" />
+    <Content Include="Pages\Department.aspx" />
+    <Content Include="Pages\EmailTemplate.aspx" />
+    <Content Include="Pages\EmployeeType.aspx" />
+    <Content Include="Pages\Level.aspx" />
+    <Content Include="Pages\MyTasks.aspx" />
+    <Content Include="Pages\OnboardOffboard.aspx" />
+    <Content Include="Pages\Position.aspx" />
+    <Content Include="Pages\Report.aspx" />
+    <Content Include="Pages\TaskReport.aspx" />
+    <Content Include="Pages\TaskTemplate.aspx" />
+    <Content Include="Positionlst\Elements.xml" />
+    <Content Include="Positionlst\PositionlstInstance\Elements.xml" />
+    <Content Include="Positionlst\Schema.xml" />
+    <Content Include="Scripts\Analytics\CleanDataAnalyticsSyncData.js" />
+    <Content Include="Scripts\Analytics\ExceptionAnalytics.js" />
+    <Content Include="Scripts\Analytics\ExceptionLogAnalytics.js" />
+    <Content Include="Scripts\Analytics\PageAnalytics.js" />
+    <Content Include="Scripts\Analytics\UserAnalytics.js" />
+    <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\jspdf\jspdf.js" />
+    <Content Include="Scripts\jspdf\libs\base64.js" />
+    <Content Include="Scripts\jspdf\libs\sprintf.js" />
+    <Content Include="Scripts\JS\ConfigModal.js" />
+    <Content Include="Scripts\JS\EOBConstants.js" />
+    <Content Include="Scripts\JS\EOBShared.js" />
+    <Content Include="Scripts\JS\FileUploadHelper.js" />
+    <Content Include="Scripts\JS\GridShared.js" />
+    <Content Include="Scripts\JS\jsDataAnalytics.js" />
+    <Content Include="Scripts\JS\jsHome.js" />
+    <Content Include="Scripts\JS\jsUpgrade.js" />
+    <Content Include="Scripts\ReactComponents\ComboComponent.js" />
+    <Content Include="Scripts\ReactComponents\ConfigurationSettings.js" />
+    <Content Include="Scripts\ReactComponents\DashboardMain.js" />
+    <Content Include="Scripts\ReactComponents\DataAnalyticsComponent.js" />
+    <Content Include="Scripts\ReactComponents\DataGridComponent.js" />
+    <Content Include="Scripts\ReactComponents\DataTableComponent.js" />
+    <Content Include="Scripts\ReactComponents\DepartmentMain.js" />
+    <Content Include="Scripts\ReactComponents\CategoryMain.js" />
+    <Content Include="Scripts\ReactComponents\CategoryModalDialog.js" />
+    <Content Include="Scripts\ReactComponents\ColorThemeAndTitle.js" />
+    <Content Include="Scripts\ReactComponents\DeleteModalDialog.js" />
+    <Content Include="Scripts\ReactComponents\DepartmentMain_old.js" />
+    <Content Include="Scripts\ReactComponents\DepartmentModalDialog.js" />
+    <Content Include="Scripts\ReactComponents\EmailTemplateMain.js" />
+    <Content Include="Scripts\ReactComponents\EmailTemplateModal.js" />
+    <Content Include="Scripts\ReactComponents\EmailTemplateTile.js" />
+    <Content Include="Scripts\ReactComponents\EmployeeCustomFields.js" />
+    <Content Include="Scripts\ReactComponents\EmployeeTypeMain.js" />
+    <Content Include="Scripts\ReactComponents\EmployeeTypeModalDialog.js" />
+    <Content Include="Scripts\ReactComponents\EOBReactShared.js" />
+    <Content Include="Scripts\ReactComponents\EOBReport.js" />
+    <Content Include="Scripts\ReactComponents\Footer.js" />
+    <Content Include="Scripts\ReactComponents\HeaderConfig.js" />
+    <Content Include="Scripts\ReactComponents\LeftNavigation.js" />
+    <Content Include="Scripts\ReactComponents\LevelMain.js" />
+    <Content Include="Scripts\ReactComponents\LevelModalDialog.js" />
+    <Content Include="Scripts\ReactComponents\LicenseValidationModal.js" />
+    <Content Include="Scripts\ReactComponents\MainHeaderConfig.js" />
+    <Content Include="Scripts\ReactComponents\MenuHeaderConfig.js" />
+    <Content Include="Scripts\ReactComponents\MyTasks.js" />
+    <Content Include="Scripts\ReactComponents\OffboardingEmployeeModal.js" />
+    <Content Include="Scripts\ReactComponents\OnboardOffboardMain.js" />
+    <Content Include="Scripts\ReactComponents\OnboardOffboardModalDialog.js" />
+    <Content Include="Scripts\ReactComponents\OverDueTaskNotificationEmail.js" />
+    <Content Include="Scripts\ReactComponents\OverDueTasksDashboard.js" />
+    <Content Include="Scripts\ReactComponents\PageTitle.js" />
+    <Content Include="Scripts\ReactComponents\PositionMain.js" />
+    <Content Include="Scripts\ReactComponents\PositionModalDialog.js" />
+    <Content Include="Pages\StandardTask.aspx" />
+    <Content Include="Scripts\ReactComponents\StandardTaskMain.js" />
+    <Content Include="Scripts\ReactComponents\StandardTaskModalDialog.js" />
+    <Content Include="Scripts\ReactComponents\TabMain.js" />
+    <Content Include="Scripts\ReactComponents\TaskTemplateMain.js" />
+    <Content Include="Scripts\ReactComponents\TaskTemplateModalDialog.js" />
+    <Content Include="Scripts\ReactComponents\TaskUpdateModal.js" />
+    <Content Include="Scripts\ReactComponents\UserInfoModal.js" />
+    <Content Include="Scripts\ReactComponents\UserInfoPopUp.js" />
+    <Content Include="Scripts\SharedLib\apexcharts.common.js" />
+    <Content Include="Scripts\SharedLib\apexcharts.css" />
+    <Content Include="Scripts\SharedLib\apexcharts.min.js" />
+    <Content Include="Scripts\SharedLib\apexcharts_latest.js" />
+    <Content Include="Scripts\SharedLib\babel.min.js" />
+    <Content Include="Scripts\SharedLib\bk-peoplepickrlib.js" />
+    <Content Include="Scripts\SharedLib\BKJSShared.js" />
+    <Content Include="Scripts\SharedLib\BKPeoplePickerRest.js" />
+    <Content Include="Scripts\SharedLib\BKSPAddUserInfo.js" />
+    <Content Include="Scripts\SharedLib\BKSPCustomerLicense.js" />
+    <Content Include="Scripts\SharedLib\BKSPShared.js" />
+    <Content Include="Scripts\SharedLib\BKUserConfig.js" />
+    <Content Include="Scripts\SharedLib\BKValidationShared.js" />
+    <Content Include="Scripts\SharedLib\bootstrap-datepicker.js" />
+    <Content Include="Scripts\SharedLib\bootstrap.min.js" />
+    <Content Include="Scripts\SharedLib\ckeditor.js" />
+    <Content Include="Scripts\SharedLib\jquery-3.4.1.min.js" />
+    <Content Include="Scripts\SharedLib\jquery.base64.js" />
+    <Content Include="Scripts\SharedLib\jquery.SPServices.min.js" />
+    <Content Include="Scripts\SharedLib\MicrosoftAjax.js" />
+    <Content Include="Scripts\SharedLib\moment.min.js" />
+    <Content Include="Scripts\SharedLib\popper.min.js" />
+    <Content Include="Scripts\SharedLib\prop-types.min.js" />
+    <Content Include="Scripts\SharedLib\react-apexcharts.iife.min.js" />
+    <Content Include="Scripts\SharedLib\react-dom.development.js" />
+    <Content Include="Scripts\SharedLib\react.development.js" />
+    <Content Include="Scripts\SharedLib\table2excel.js" />
+    <Content Include="Scripts\SharedLib\tableExport.js" />
+    <Content Include="Scripts\SharedLib\toastr.min.js" />
+    <Content Include="Settings\Elements.xml" />
+    <Content Include="Settings\Schema.xml" />
+    <Content Include="Settings\SettingsInstance\Elements.xml" />
+    <Content Include="StandardTask\Elements.xml" />
+    <Content Include="StandardTask\Schema.xml" />
+    <Content Include="StandardTask\StandardTaskInstance\Elements.xml" />
+    <Content Include="TaskTemplateDetail\Elements.xml" />
+    <Content Include="TaskTemplateDetail\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="TaskTemplateDetail\TaskTemplateInstance\Elements.xml" />
+    <Content Include="TaskTemplateMaster\Elements.xml" />
+    <Content Include="TaskTemplateMaster\Schema.xml" />
+    <Content Include="TaskTemplateMaster\TaskTemplateMasterInstance\Elements.xml" />
+    <Content Include="TestTask\Elements.xml" />
+    <Content Include="User Analytics\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="User Analytics\Schema.xml" />
+    <Content Include="User Analytics\User Analytics Instance\Elements.xml" />
+    <Content Include="User Exception\Elements.xml" />
+    <Content Include="User Exception\Schema.xml" />
+    <Content Include="User Exception\User Exception Instance\Elements.xml" />
+    <Content Include="UserConfig\Elements.xml" />
+    <Content Include="UserConfig\Schema.xml" />
+    <Content Include="UserConfig\UserConfigInstance\Elements.xml" />
+    <Content Include="UserPermission\Elements.xml" />
+    <Content Include="UserPermission\Schema.xml" />
+    <Content Include="UserPermission\UserPermissionInstance\Elements.xml" />
+    <None Include="ActualTasks\ActualTasksInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1b9c39f3-c053-4e5b-9f1d-260a34e168e9}</SharePointProjectItemId>
+    </None>
+    <None Include="ActualTasks\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{462b4605-2c06-43ae-8b70-56fc2694776e}</SharePointProjectItemId>
+    </None>
+    <None Include="BrowserDataInfo\BrowserDataInfoInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0b60a5b1-2ede-4df9-bb34-de362f4b6d19}</SharePointProjectItemId>
+    </None>
+    <None Include="BrowserDataInfo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{459e21dd-b5ab-4dc9-b25f-6b633328a4bb}</SharePointProjectItemId>
+    </None>
+    <None Include="Category\CategoryInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{de4bc765-d1a7-4996-bb9c-a91cf2138bc7}</SharePointProjectItemId>
+    </None>
+    <None Include="Category\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b951103d-2ac1-4405-87e0-c0e6fc03bd18}</SharePointProjectItemId>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Configurations\ConfigurationsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{540d00bf-9e4b-4615-bbf2-0fb56a81b48a}</SharePointProjectItemId>
+    </None>
+    <None Include="Configurations\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7a073353-2972-4465-bfa2-d2e37423212c}</SharePointProjectItemId>
+    </None>
+    <None Include="Content\webfonts\fa-brands-400.eot" />
+    <None Include="Content\webfonts\fa-brands-400.ttf" />
+    <None Include="Content\webfonts\fa-brands-400.woff" />
+    <None Include="Content\webfonts\fa-brands-400.woff2" />
+    <None Include="Content\webfonts\fa-regular-400.eot" />
+    <None Include="Content\webfonts\fa-regular-400.ttf" />
+    <None Include="Content\webfonts\fa-regular-400.woff" />
+    <None Include="Content\webfonts\fa-regular-400.woff2" />
+    <None Include="Content\webfonts\fa-solid-900.eot" />
+    <None Include="Content\webfonts\fa-solid-900.ttf" />
+    <None Include="Content\webfonts\fa-solid-900.woff" />
+    <None Include="Content\webfonts\fa-solid-900.woff2" />
+    <None Include="Content\fonts\fontawesome-webfont.eot" />
+    <None Include="Content\fonts\fontawesome-webfont.ttf" />
+    <None Include="Content\fonts\fontawesome-webfont.woff" />
+    <None Include="Content\fonts\fontawesome-webfont.woff2" />
+    <None Include="Content\fonts\FontAwesome.otf" />
+    <None Include="Departmentlst\DepartmentlstInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{14997a07-47df-4aa8-8923-bd75651b9152}</SharePointProjectItemId>
+    </None>
+    <None Include="Departmentlst\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0737edbe-5a80-4ec2-8472-e15a9bc71977}</SharePointProjectItemId>
+    </None>
+    <None Include="EmailTemplates\EmailTemplatesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b97f7421-826c-4983-9ac5-4b49af7abd7b}</SharePointProjectItemId>
+    </None>
+    <None Include="EmailTemplates\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e23965d2-0af2-49bf-810d-0f6093fa0ea8}</SharePointProjectItemId>
+    </None>
+    <None Include="EmployeeCustomFieldsOffBoard\EmployeeCustomFieldsOffBoardInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9fbca962-5076-48f5-871d-e31d24b9addc}</SharePointProjectItemId>
+    </None>
+    <None Include="EmployeeCustomFieldsOffBoard\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b275b00a-3634-4be1-9274-0c9f7685656a}</SharePointProjectItemId>
+    </None>
+    <None Include="EmployeeCustomFieldsOnBoard\EmployeeCustomFieldsOnBoardInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1aab2f17-78a7-47d9-ae66-fec083450833}</SharePointProjectItemId>
+    </None>
+    <None Include="EmployeeCustomFieldsOnBoard\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1f029d89-d907-4de8-ab33-bd5c81124796}</SharePointProjectItemId>
+    </None>
+    <None Include="EmployeeTypelst\EmployeeTypelstInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ae576fdb-f445-4730-8e4e-cdf439508294}</SharePointProjectItemId>
+    </None>
+    <None Include="EmployeeTypelst\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6078d711-4d05-44f9-9473-b434b347e9b3}</SharePointProjectItemId>
+    </None>
+    <None Include="EODataAnalytics\EODataAnalyticsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b39f187d-0aef-4b1b-b0aa-9378d031435b}</SharePointProjectItemId>
+    </None>
+    <None Include="EODataAnalytics\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e1ee0b39-b047-4dab-b4a2-d2694949bcb2}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Feature10\Feature10.feature">
+      <FeatureId>{9cf2c954-96f1-40df-b430-bd9ca31f4ec2}</FeatureId>
+    </None>
+    <None Include="Features\Feature11\Feature11.feature">
+      <FeatureId>{c6dc2aa9-1841-4c9e-a0b8-bbaa04de2447}</FeatureId>
+    </None>
+    <None Include="Features\Feature12\Feature12.feature">
+      <FeatureId>{42cbd857-3ef2-42ee-a171-0ae646f72f16}</FeatureId>
+    </None>
+    <None Include="Features\Feature13\Feature13.feature">
+      <FeatureId>{93f5a92c-ee95-42e6-952b-4dfd7c311fa3}</FeatureId>
+    </None>
+    <None Include="Features\Feature14\Feature14.feature">
+      <FeatureId>{997c8ad7-3e24-4481-b1a6-9586a18e837a}</FeatureId>
+    </None>
+    <None Include="Features\Feature15\Feature15.feature">
+      <FeatureId>{e0f82b05-55c3-4621-a7b8-a4fade1cc1be}</FeatureId>
+    </None>
+    <None Include="Features\Feature16\Feature16.feature">
+      <FeatureId>{8dc2e13a-02ec-4c2d-bc09-7a54b9ea4740}</FeatureId>
+    </None>
+    <None Include="Features\Feature17\Feature17.feature">
+      <FeatureId>{93d2ee72-c0c2-4789-aa7c-b2b8890a8599}</FeatureId>
+    </None>
+    <None Include="Features\Feature18\Feature18.feature">
+      <FeatureId>{75ac6ba4-9c78-42f0-ba13-da61f345cc86}</FeatureId>
+    </None>
+    <None Include="Features\Feature19\Feature19.feature">
+      <FeatureId>{0c175a7c-3152-47ae-93ba-3005b8d48c15}</FeatureId>
+    </None>
+    <None Include="Features\Feature20\Feature20.feature">
+      <FeatureId>{9d111120-9723-41f3-b269-28aef05de98e}</FeatureId>
+    </None>
+    <None Include="Features\Feature21\Feature21.feature">
+      <FeatureId>{b8ae7dc5-1d21-4deb-969c-1e9637487d12}</FeatureId>
+    </None>
+    <None Include="Features\Feature22\Feature22.feature">
+      <FeatureId>{2a62e740-6d5a-462a-afda-7b1ee936799d}</FeatureId>
+    </None>
+    <None Include="Features\Feature23\Feature23.feature">
+      <FeatureId>{66c39814-fedf-4f32-8c82-02b430970c82}</FeatureId>
+    </None>
+    <None Include="Features\Feature24\Feature24.feature">
+      <FeatureId>{f9ae1f26-5e4e-4b17-abea-f9b0ee3a616b}</FeatureId>
+    </None>
+    <None Include="Features\Feature25\Feature25.feature">
+      <FeatureId>{bd97a98f-a95c-4bff-85b9-3906c0eda05f}</FeatureId>
+    </None>
+    <None Include="Features\Feature26\Feature26.feature">
+      <FeatureId>{9ec8bbae-cc98-4e19-9ebd-19ffb4485afd}</FeatureId>
+    </None>
+    <None Include="Features\Feature2\Feature2.feature">
+      <FeatureId>{8605bd01-73f4-4029-9a80-f42fc056e35d}</FeatureId>
+    </None>
+    <None Include="Features\Feature3\Feature3.feature">
+      <FeatureId>{9ad555c6-beda-4ec7-a55c-cc7853f6c2c0}</FeatureId>
+    </None>
+    <None Include="Features\Feature4\Feature4.feature">
+      <FeatureId>{277b7410-3ca1-4bea-9598-7f5a2dfa0599}</FeatureId>
+    </None>
+    <None Include="Features\Feature5\Feature5.feature">
+      <FeatureId>{7574aa3f-abcc-4062-b5a1-f6e995b508b0}</FeatureId>
+    </None>
+    <None Include="Features\Feature6\Feature6.feature">
+      <FeatureId>{097fe134-890b-4cf5-8745-307e79b5efc4}</FeatureId>
+    </None>
+    <None Include="Features\Feature7\Feature7.feature">
+      <FeatureId>{ebc45d92-030c-4124-8289-78818665c846}</FeatureId>
+    </None>
+    <None Include="Features\Feature8\Feature8.feature">
+      <FeatureId>{e34c5e76-4a23-4a63-85b2-f020e5447924}</FeatureId>
+    </None>
+    <None Include="Features\Feature9\Feature9.feature">
+      <FeatureId>{ce7b43c5-bfad-406e-9956-42012a8614d9}</FeatureId>
+    </None>
+    <None Include="Levellst\LevellstInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{df8f3e94-23e9-4536-bc53-fc85b5285244}</SharePointProjectItemId>
+    </None>
+    <None Include="Levellst\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bfcd9493-f817-41a8-95ef-62f84ead551b}</SharePointProjectItemId>
+    </None>
+    <None Include="Logo Image\Logo Image Instance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8699116e-2236-497e-aa40-17066a1b0957}</SharePointProjectItemId>
+    </None>
+    <None Include="Logo Image\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f0ba1c31-8543-4aca-901e-860e4cd4e76a}</SharePointProjectItemId>
+    </None>
+    <None Include="Log\LogInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cb837302-6900-4aba-a084-135f96fec2f8}</SharePointProjectItemId>
+    </None>
+    <None Include="Log\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b365b178-3bbd-4b67-b77b-08786c0a7ea1}</SharePointProjectItemId>
+    </None>
+    <None Include="lstEmployeeOnBoardDetail\lstEmployeeOnBoardDetailInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f28c27af-28c8-406d-af4e-3653554aa1df}</SharePointProjectItemId>
+    </None>
+    <None Include="lstEmployeeOnBoardDetail\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c27b8ceb-a8e4-408b-96aa-37ce37ddf59f}</SharePointProjectItemId>
+    </None>
+    <None Include="lstEmployeeOnboard\lstEmployeeOnboardInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e793f3f7-e37a-47db-8d66-7b89b642929d}</SharePointProjectItemId>
+    </None>
+    <None Include="lstEmployeeOnboard\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{14c1ae30-134e-4c56-b440-49fd412642e6}</SharePointProjectItemId>
+    </None>
+    <None Include="lstProcessType\lstProcessTypeInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{deb5b57c-2fe1-444b-9288-7ad11b218f3d}</SharePointProjectItemId>
+    </None>
+    <None Include="lstProcessType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{424ac6ab-a40d-48d4-9def-23529dbd054f}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Page Analytics\Page Analytics Instance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{dcb9651a-b528-4e58-8202-b66b09897aea}</SharePointProjectItemId>
+    </None>
+    <None Include="Page Analytics\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8db02a8e-51d2-469b-971a-bbfa37350f18}</SharePointProjectItemId>
+    </None>
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{51a5ce8c-7f26-4723-8d30-246b886192f4}</SharePointProjectItemId>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="Pages\Category.aspx" />
+    <None Include="Positionlst\PositionlstInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9528ef39-54c8-45df-9ef1-3cc9411993ac}</SharePointProjectItemId>
+    </None>
+    <None Include="Positionlst\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ac30da16-5f74-488e-b878-ea4696cbfa45}</SharePointProjectItemId>
+    </None>
+    <None Include="Settings\SettingsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b72a752a-f192-434d-b441-cd18929c6f13}</SharePointProjectItemId>
+    </None>
+    <None Include="Settings\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5ca9e911-0f80-41db-87ff-4a605fb4d478}</SharePointProjectItemId>
+    </None>
+    <None Include="SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7c606544-7f6d-4c23-833d-20138fa82084}</SharePointProjectItemId>
+    </None>
+    <None Include="StandardTask\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b86cb436-57b5-4547-b02a-6efe4aac254e}</SharePointProjectItemId>
+    </None>
+    <None Include="StandardTask\StandardTaskInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{db6fc99a-3db3-49c5-8ee4-069eb878becc}</SharePointProjectItemId>
+    </None>
+    <None Include="TaskTemplateDetail\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fe6a98df-cba7-46e9-ad97-2d2f175e628b}</SharePointProjectItemId>
+    </None>
+    <None Include="TaskTemplateDetail\TaskTemplateInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ec419754-9172-41dc-9e87-374c79c61203}</SharePointProjectItemId>
+    </None>
+    <None Include="TaskTemplateMaster\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{335cc46d-e7c0-46bf-8a55-1588e200c706}</SharePointProjectItemId>
+    </None>
+    <None Include="TaskTemplateMaster\TaskTemplateMasterInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f712e243-f766-4b3d-9b57-30feb10d1054}</SharePointProjectItemId>
+    </None>
+    <None Include="TestTask\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{690dc8cb-9ac9-46a9-81ef-7da5d5b72cdc}</SharePointProjectItemId>
+    </None>
+    <None Include="User Analytics\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0ac577e6-84d6-426b-a2f5-4acf3c3639fb}</SharePointProjectItemId>
+    </None>
+    <None Include="User Analytics\User Analytics Instance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d24a3c9f-f924-48b3-8bfe-4d4d1d699138}</SharePointProjectItemId>
+    </None>
+    <None Include="User Exception\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a3ccda6c-e869-4657-9936-663b438eaec6}</SharePointProjectItemId>
+    </None>
+    <None Include="User Exception\User Exception Instance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{62dfa273-2c89-416e-833d-aacac58ab967}</SharePointProjectItemId>
+    </None>
+    <None Include="UserConfig\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{da194052-9fab-420b-a2e7-8d1e86739779}</SharePointProjectItemId>
+    </None>
+    <None Include="UserConfig\UserConfigInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fb334530-60aa-4766-8a2f-7307e72a20ad}</SharePointProjectItemId>
+    </None>
+    <None Include="UserPermission\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{437e0fce-b20b-464d-ad96-4373a54b1ba7}</SharePointProjectItemId>
+    </None>
+    <None Include="UserPermission\UserPermissionInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2aa44b11-2310-487e-a4a7-68f426558ece}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\jquery-1.9.1.min.map" />
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e04872e4-7113-4a3d-a5b6-560dad942828}</SharePointProjectItemId>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Scripts\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Scripts\App.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1e03fac8-d013-4d56-a8ff-6650297dcee6}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\App.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2939d33f-d5b5-420c-b32c-d7c08585da34}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{7d33216a-fd2f-4e44-9f87-27db953bb28d}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{07c68cb3-9e10-49bd-b941-73d8b3e526ba}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.DesignTime.Activities.16.0, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.SharePoint.DesignTime.Activities.16.0.Design, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

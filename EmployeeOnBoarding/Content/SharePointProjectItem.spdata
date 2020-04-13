@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Content\" Type="ElementManifest" />
+    <ProjectItemFile Source="App.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="toastr.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="bootstrap.min.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="font-awesome.min.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="datepicker.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\fontawesome-webfont.eot" Target="Content\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\fontawesome-webfont.svg" Target="Content\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\fontawesome-webfont.ttf" Target="Content\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\fontawesome-webfont.woff" Target="Content\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\fontawesome-webfont.woff2" Target="Content\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\FontAwesome.otf" Target="Content\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fontawesome.min.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="webfonts\fa-brands-400.eot" Target="Content\webfonts\" Type="ElementFile" />
+    <ProjectItemFile Source="webfonts\fa-brands-400.svg" Target="Content\webfonts\" Type="ElementFile" />
+    <ProjectItemFile Source="webfonts\fa-brands-400.ttf" Target="Content\webfonts\" Type="ElementFile" />
+    <ProjectItemFile Source="webfonts\fa-brands-400.woff" Target="Content\webfonts\" Type="ElementFile" />
+    <ProjectItemFile Source="webfonts\fa-brands-400.woff2" Target="Content\webfonts\" Type="ElementFile" />
+    <ProjectItemFile Source="webfonts\fa-regular-400.eot" Target="Content\webfonts\" Type="ElementFile" />
+    <ProjectItemFile Source="webfonts\fa-regular-400.svg" Target="Content\webfonts\" Type="ElementFile" />
+    <ProjectItemFile Source="webfonts\fa-regular-400.ttf" Target="Content\webfonts\" Type="ElementFile" />
+    <ProjectItemFile Source="webfonts\fa-regular-400.woff" Target="Content\webfonts\" Type="ElementFile" />
+    <ProjectItemFile Source="webfonts\fa-regular-400.woff2" Target="Content\webfonts\" Type="ElementFile" />
+    <ProjectItemFile Source="webfonts\fa-solid-900.eot" Target="Content\webfonts\" Type="ElementFile" />
+    <ProjectItemFile Source="webfonts\fa-solid-900.svg" Target="Content\webfonts\" Type="ElementFile" />
+    <ProjectItemFile Source="webfonts\fa-solid-900.ttf" Target="Content\webfonts\" Type="ElementFile" />
+    <ProjectItemFile Source="webfonts\fa-solid-900.woff" Target="Content\webfonts\" Type="ElementFile" />
+    <ProjectItemFile Source="webfonts\fa-solid-900.woff2" Target="Content\webfonts\" Type="ElementFile" />
+    <ProjectItemFile Source="FontAwesome_5.7\all.min.css" Target="Content\FontAwesome_5.7\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

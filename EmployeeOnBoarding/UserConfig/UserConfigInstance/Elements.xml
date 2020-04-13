@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="UserConfig" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/UserConfig" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Key">UsersList</Field>
+          <Field Name="ID">1</Field>
+          <Field Name="Value">[]</Field>
+        </Row>
+        <Row>
+          <Field Name="Key">UpgradeStatus</Field>
+          <Field Name="ID">2</Field>
+          <Field Name="Value">0</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Settings" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/Settings" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="AnalyticsRetentionPeriod">30</Field>
+          <Field Name="EmailNotificationStatus">1</Field>
+          <Field Name="ID">1</Field>
+          <Field Name="DisplayTextHR">HR</Field>
+          <Field Name="DisplayTextManager">Manager</Field>
+          <Field Name="DueDateBasedOn">2</Field>
+          <Field Name="OnboardTitle">Employee OnBoard</Field>
+          <Field Name="OffboardTitle">Employee OffBoard</Field>
+          <Field Name="ThemeColor">#007BFF</Field>
+          <Field Name="DisplayTextEmployee">Employee</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

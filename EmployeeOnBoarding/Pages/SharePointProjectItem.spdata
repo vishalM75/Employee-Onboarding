@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Pages\" Type="ElementManifest" />
+    <ProjectItemFile Source="Category.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="Demo.html" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="Department.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="EmployeeType.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="Position.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="StandardTask.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="Level.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="Dashboard.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="TaskTemplate.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="OnboardOffboard.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="MyTasks.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="Report.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="EmailTemplate.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="DataAnalytics.aspx" Target="Pages\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

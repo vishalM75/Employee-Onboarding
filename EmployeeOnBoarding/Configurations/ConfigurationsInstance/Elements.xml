@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Configurations" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/Configurations" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Green</Field>
+          <Field Name="ThemeColor">#5ab8ff</Field>
+          <Field Name="OnboardTitle">Employee Onboarding</Field>
+          <Field Name="OffboardTitle">Employee Offboarding</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

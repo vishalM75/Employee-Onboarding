@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Pages">
+    <File Path="Pages\Category.aspx" Url="Pages/Category.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\Demo.html" Url="Pages/Demo.html" ReplaceContent="TRUE" />
+    <File Path="Pages\Department.aspx" Url="Pages/Department.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\EmployeeType.aspx" Url="Pages/EmployeeType.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\Position.aspx" Url="Pages/Position.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\StandardTask.aspx" Url="Pages/StandardTask.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\Level.aspx" Url="Pages/Level.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\Dashboard.aspx" Url="Pages/Dashboard.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\TaskTemplate.aspx" Url="Pages/TaskTemplate.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\OnboardOffboard.aspx" Url="Pages/OnboardOffboard.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\MyTasks.aspx" Url="Pages/MyTasks.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\Report.aspx" Url="Pages/Report.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\EmailTemplate.aspx" Url="Pages/EmailTemplate.aspx" ReplaceContent="TRUE" />
+    <!--<File Path="Pages\TaskReport.aspx" Url="Pages/TaskReport.aspx" ReplaceContent="TRUE" />-->
+    <File Path="Pages\DataAnalytics.aspx" Url="Pages/DataAnalytics.aspx" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

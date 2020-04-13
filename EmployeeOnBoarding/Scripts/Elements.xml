@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.min.map" Url="Scripts/jquery-1.9.1.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.min.js" Url="Scripts/jquery-1.9.1.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.js" Url="Scripts/jquery-1.9.1.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.intellisense.js" Url="Scripts/jquery-1.9.1.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\JS\ConfigModal.js" Url="Scripts/JS/ConfigModal.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\CategoryMain.js" Url="Scripts/ReactComponents/CategoryMain.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\BKJSShared.js" Url="Scripts/SharedLib/BKJSShared.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\BKValidationShared.js" Url="Scripts/SharedLib/BKValidationShared.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\BKSPAddUserInfo.js" Url="Scripts/SharedLib/BKSPAddUserInfo.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\jquery-3.4.1.min.js" Url="Scripts/SharedLib/jquery-3.4.1.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\CategoryModalDialog.js" Url="Scripts/ReactComponents/CategoryModalDialog.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\JS\EOBConstants.js" Url="Scripts/JS/EOBConstants.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\DeleteModalDialog.js" Url="Scripts/ReactComponents/DeleteModalDialog.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\MainHeaderConfig.js" Url="Scripts/ReactComponents/MainHeaderConfig.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\Footer.js" Url="Scripts/ReactComponents/Footer.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\PageTitle.js" Url="Scripts/ReactComponents/PageTitle.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\DepartmentMain_old.js" Url="Scripts/ReactComponents/DepartmentMain_old.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\DepartmentModalDialog.js" Url="Scripts/ReactComponents/DepartmentModalDialog.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\EmployeeTypeMain.js" Url="Scripts/ReactComponents/EmployeeTypeMain.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\EmployeeTypeModalDialog.js" Url="Scripts/ReactComponents/EmployeeTypeModalDialog.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\PositionMain.js" Url="Scripts/ReactComponents/PositionMain.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\PositionModalDialog.js" Url="Scripts/ReactComponents/PositionModalDialog.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\StandardTaskMain.js" Url="Scripts/ReactComponents/StandardTaskMain.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\StandardTaskModalDialog.js" Url="Scripts/ReactComponents/StandardTaskModalDialog.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\ColorThemeAndTitle.js" Url="Scripts/ReactComponents/ColorThemeAndTitle.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\DepartmentMain.js" Url="Scripts/ReactComponents/DepartmentMain.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\JS\GridShared.js" Url="Scripts/JS/GridShared.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\DataGridComponent.js" Url="Scripts/ReactComponents/DataGridComponent.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\LevelMain.js" Url="Scripts/ReactComponents/LevelMain.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\LevelModalDialog.js" Url="Scripts/ReactComponents/LevelModalDialog.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\bk-peoplepickrlib.js" Url="Scripts/SharedLib/bk-peoplepickrlib.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\BKSPShared.js" Url="Scripts/SharedLib/BKSPShared.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\ConfigurationSettings.js" Url="Scripts/ReactComponents/ConfigurationSettings.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\MenuHeaderConfig.js" Url="Scripts/ReactComponents/MenuHeaderConfig.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\LeftNavigation.js" Url="Scripts/ReactComponents/LeftNavigation.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\DashboardMain.js" Url="Scripts/ReactComponents/DashboardMain.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\TaskTemplateModalDialog.js" Url="Scripts/ReactComponents/TaskTemplateModalDialog.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\TaskTemplateMain.js" Url="Scripts/ReactComponents/TaskTemplateMain.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\OverDueTasksDashboard.js" Url="Scripts/ReactComponents/OverDueTasksDashboard.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\JS\FileUploadHelper.js" Url="Scripts/JS/FileUploadHelper.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\JS\EOBShared.js" Url="Scripts/JS/EOBShared.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\ComboComponent.js" Url="Scripts/ReactComponents/ComboComponent.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\TabMain.js" Url="Scripts/ReactComponents/TabMain.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\OnboardOffboardMain.js" Url="Scripts/ReactComponents/OnboardOffboardMain.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\OnboardOffboardModalDialog.js" Url="Scripts/ReactComponents/OnboardOffboardModalDialog.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\bootstrap.min.js" Url="Scripts/SharedLib/bootstrap.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\UserInfoModal.js" Url="Scripts/ReactComponents/UserInfoModal.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\MyTasks.js" Url="Scripts/ReactComponents/MyTasks.js" ReplaceContent="TRUE" />
+    <!--<File Path="Scripts\ReactComponents\UserInfoPopUp.js" Url="Scripts/ReactComponents/UserInfoPopUp.js" ReplaceContent="TRUE" />-->
+    <File Path="Scripts\ReactComponents\EOBReport.js" Url="Scripts/ReactComponents/EOBReport.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\babel.min.js" Url="Scripts/SharedLib/babel.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\react-dom.development.js" Url="Scripts/SharedLib/react-dom.development.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\react.development.js" Url="Scripts/SharedLib/react.development.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\DataTableComponent.js" Url="Scripts/ReactComponents/DataTableComponent.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\UserInfoPopUp.js" Url="Scripts/ReactComponents/UserInfoPopUp.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\EmployeeCustomFields.js" Url="Scripts/ReactComponents/EmployeeCustomFields.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\table2excel.js" Url="Scripts/SharedLib/table2excel.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\EmailTemplateMain.js" Url="Scripts/ReactComponents/EmailTemplateMain.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\EmailTemplateModal.js" Url="Scripts/ReactComponents/EmailTemplateModal.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\tableExport.js" Url="Scripts/SharedLib/tableExport.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\jquery.base64.js" Url="Scripts/SharedLib/jquery.base64.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\jquery.SPServices.min.js" Url="Scripts/SharedLib/jquery.SPServices.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\BKPeoplePickerRest.js" Url="Scripts/SharedLib/BKPeoplePickerRest.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\JS\jsHome.js" Url="Scripts/JS/jsHome.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\toastr.min.js" Url="Scripts/SharedLib/toastr.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\moment.min.js" Url="Scripts/SharedLib/moment.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\MicrosoftAjax.js" Url="Scripts/SharedLib/MicrosoftAjax.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\popper.min.js" Url="Scripts/SharedLib/popper.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\bootstrap-datepicker.js" Url="Scripts/SharedLib/bootstrap-datepicker.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\prop-types.min.js" Url="Scripts/SharedLib/prop-types.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\apexcharts_latest.js" Url="Scripts/SharedLib/apexcharts_latest.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\react-apexcharts.iife.min.js" Url="Scripts/SharedLib/react-apexcharts.iife.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\ckeditor.js" Url="Scripts/SharedLib/ckeditor.js" ReplaceContent="TRUE" />
+
+    <File Path="Scripts\ReactComponents\TaskUpdateModal.js" Url="Scripts/ReactComponents/TaskUpdateModal.js" ReplaceContent="TRUE" />
+
+    <!--<File Path="Scripts\ReactComponents\ActualTaskModalDialog.js" Url="Scripts/ReactComponents/ActualTaskModalDialog.js" ReplaceContent="TRUE" />-->
+    <File Path="Scripts\ReactComponents\EmailTemplateTile.js" Url="Scripts/ReactComponents/EmailTemplateTile.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\DataAnalyticsComponent.js" Url="Scripts/ReactComponents/DataAnalyticsComponent.js" ReplaceContent="TRUE" />
+
+    <File Path="Scripts\Analytics\CleanDataAnalyticsSyncData.js" Url="Scripts/Analytics/CleanDataAnalyticsSyncData.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Analytics\ExceptionAnalytics.js" Url="Scripts/Analytics/ExceptionAnalytics.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Analytics\ExceptionLogAnalytics.js" Url="Scripts/Analytics/ExceptionLogAnalytics.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Analytics\PageAnalytics.js" Url="Scripts/Analytics/PageAnalytics.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Analytics\UserAnalytics.js" Url="Scripts/Analytics/UserAnalytics.js" ReplaceContent="TRUE" />
+
+    <File Path="Scripts\SharedLib\apexcharts.min.js" Url="Scripts/SharedLib/apexcharts.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\apexcharts.common.js" Url="Scripts/SharedLib/apexcharts.common.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\apexcharts.css" Url="Scripts/SharedLib/apexcharts.css" ReplaceContent="TRUE" />
+    <File Path="Scripts\jspdf\jspdf.js" Url="Scripts/jspdf/jspdf.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jspdf\libs\base64.js" Url="Scripts/jspdf/libs/base64.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jspdf\libs\sprintf.js" Url="Scripts/jspdf/libs/sprintf.js" ReplaceContent="TRUE" />
+  
+    <File Path="Scripts\ReactComponents\OffboardingEmployeeModal.js" Url="Scripts/ReactComponents/OffboardingEmployeeModal.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\OverDueTaskNotificationEmail.js" Url="Scripts/ReactComponents/OverDueTaskNotificationEmail.js" ReplaceContent="TRUE" />
+    <!--<File Path="Scripts\JS\Upgrade.js" Url="Scripts/JS/Upgrade.js" ReplaceContent="TRUE" />-->    
+    
+    <File Path="Scripts\SharedLib\BKSPCustomerLicense.js" Url="Scripts/SharedLib/BKSPCustomerLicense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SharedLib\BKUserConfig.js" Url="Scripts/SharedLib/BKUserConfig.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\JS\jsUpgrade.js" Url="Scripts/JS/jsUpgrade.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\JS\jsDataAnalytics.js" Url="Scripts/JS/jsDataAnalytics.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ReactComponents\LicenseValidationModal.js" Url="Scripts/ReactComponents/LicenseValidationModal.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

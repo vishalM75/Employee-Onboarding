@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="Settings" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Settings" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+
+
+
+
+
+
+
+
+      
+      
+      
+    <ContentType ID="0x0100c7146e8ed36047f1bd3527e18355cfaa" Name="ListFieldsContentType">
+        <FieldRefs>
+
+
+
+
+
+
+          
+          
+          
+          
+          
+        <FieldRef ID="{929f6014-6660-41e4-97e4-125406ca6c6c}" Name="AnalyticsRetentionPeriod" /><FieldRef ID="{7f6394e1-cad5-492f-9d49-4ef8f0f695a2}" Name="EmailNotificationStatus" /><FieldRef ID="{4eb02c22-0bde-4ed3-aa33-72cd22379066}" Name="DisplayTextHR" /><FieldRef ID="{3bb1f7a0-ed6c-4463-99ea-a57004d647c1}" Name="DisplayTextManager" /><FieldRef ID="{c0810b25-65c3-463b-bd2c-86364f1568e9}" Name="DueDateBasedOn" /><FieldRef ID="{484a1571-32ab-4679-b76f-92b1dcc26ac5}" Name="Title1" /><FieldRef ID="{d6204ebb-c065-484a-a504-0be6ce9707a2}" Name="ThemeColor" /><FieldRef ID="{22a7cc25-0648-4209-94c1-079af022f69d}" Name="OnboardTitle" /><FieldRef ID="{d3bdf0aa-5a76-4dc1-a744-20c3e330d03f}" Name="OffboardTitle" /><FieldRef ID="{2a4142ab-8d55-4025-9294-1d5d128f9f72}" Name="AdminUsers" /><FieldRef ID="{4344e033-d88a-4136-921f-40ee95d007da}" Name="DisplayTextEmployee" /><FieldRef ID="{a30eb051-bf8f-4ee5-a302-966489db4a07}" Name="LogoUrl" /><FieldRef ID="{1a507e23-15d8-48c1-b928-51f6ae2da73a}" Name="IsOpenInNewTab" /></FieldRefs>
+      </ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+
+
+
+
+
+
+
+      
+      
+      
+      
+      
+    <Field Name="AnalyticsRetentionPeriod" ID="{929f6014-6660-41e4-97e4-125406ca6c6c}" DisplayName="AnalyticsRetentionPeriod" Type="Number" /><Field Name="EmailNotificationStatus" ID="{7f6394e1-cad5-492f-9d49-4ef8f0f695a2}" DisplayName="EmailNotificationStatus" Type="Boolean" /><Field Name="DisplayTextHR" ID="{4eb02c22-0bde-4ed3-aa33-72cd22379066}" DisplayName="DisplayTextHR" Type="Text">
+        <Default>HR</Default>
+      </Field><Field Name="DisplayTextManager" ID="{3bb1f7a0-ed6c-4463-99ea-a57004d647c1}" DisplayName="DisplayTextManager" Type="Text">
+        <Default>Manager</Default>
+      </Field><Field Name="DueDateBasedOn" ID="{c0810b25-65c3-463b-bd2c-86364f1568e9}" DisplayName="DueDateBasedOn" Type="Number">
+        <Default>1</Default>
+      </Field><Field Name="Title1" ID="{484a1571-32ab-4679-b76f-92b1dcc26ac5}" DisplayName="Title" Type="Text" /><Field Name="ThemeColor" ID="{d6204ebb-c065-484a-a504-0be6ce9707a2}" DisplayName="ThemeColor" Type="Text" /><Field Name="OnboardTitle" ID="{22a7cc25-0648-4209-94c1-079af022f69d}" DisplayName="OnboardTitle" Type="Text" /><Field Name="OffboardTitle" ID="{d3bdf0aa-5a76-4dc1-a744-20c3e330d03f}" DisplayName="OffboardTitle" Type="Text" /><Field Name="AdminUsers" ID="{2a4142ab-8d55-4025-9294-1d5d128f9f72}" DisplayName="AdminUsers" Type="UserMulti" Mult="TRUE" /><Field Name="DisplayTextEmployee" ID="{4344e033-d88a-4136-921f-40ee95d007da}" DisplayName="DisplayTextEmployee" Type="Text" /><Field Name="LogoUrl" ID="{a30eb051-bf8f-4ee5-a302-966489db4a07}" DisplayName="LogoUrl" Type="Note" /><Field Name="IsOpenInNewTab" ID="{1a507e23-15d8-48c1-b928-51f6ae2da73a}" DisplayName="IsOpenInNewTab" Type="Boolean" /></Fields>
+    <Views>
+
+
+
+
+
+
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+
+
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+
+
+
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+
+
+
+
+
+
+
+
+          
+          
+          
+          
+          
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="AnalyticsRetentionPeriod" /><FieldRef Name="EmailNotificationStatus" /><FieldRef Name="DisplayTextHR" /><FieldRef Name="DisplayTextManager" /><FieldRef Name="DueDateBasedOn" /><FieldRef Name="Title1" /><FieldRef Name="ThemeColor" /><FieldRef Name="OnboardTitle" /><FieldRef Name="OffboardTitle" /><FieldRef Name="AdminUsers" /><FieldRef Name="DisplayTextEmployee" /><FieldRef Name="LogoUrl" /><FieldRef Name="IsOpenInNewTab" /></ViewFields>
+        <Query>
+          <OrderBy>
+
+
+
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>
